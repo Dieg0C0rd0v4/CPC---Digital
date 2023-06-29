@@ -1,0 +1,50 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: SPI_slave
+label: SPI_slave
+description: |
+  This example project demonstrates how to use the slave mode of the Serial Peripheral Interface driver in a bare-metal configuration.
+category: Example|Platform
+filter:
+- name: Device Type
+  value: [SoC]
+- name: MCU
+  value: [32-bit MCU]
+- name: Project Difficulty
+  value: [Advanced]
+package: platform
+quality: production
+readme:
+- {path: readme.md}
+source:
+- {path: app.c}
+- {path: main.c}
+- {path: spidrv_slave_baremetal.c}
+tag: ['hardware:component:exp_header:spi']
+include:
+- path: ''
+  file_list:
+  - {path: app.h}
+  - {path: spidrv_slave_baremetal.h}
+sdk: {id: gecko_sdk, version: 4.2.3}
+toolchain_settings: []
+component:
+- {id: sl_system}
+- {id: iostream_retarget_stdio}
+- {id: brd4182a_b06}
+- {id: iostream_recommended_stream}
+- {id: EFR32MG22C224F512IM40}
+- {id: device_init}
+- {id: brd4002a}
+- instance: [exp]
+  id: spidrv
+- {id: iostream_stdlib_config}
+define:
+- {name: DEBUG_EFM}
+configuration:
+- {name: SL_SPIDRV_EXP_TYPE, value: spidrvSlave}
+- {name: SL_SPIDRV_EXP_SLAVE_START_MODE, value: spidrvSlaveStartDelayed}
+- {name: SL_BOARD_ENABLE_VCOM, value: '1'}
+ui_hints:
+  highlight:
+  - {path: readme.md, focus: true}
+
