@@ -1,7 +1,7 @@
 autogen/sl_iostream_handles.o: ../autogen/sl_iostream_handles.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  ../autogen/sl_iostream_handles.h \
@@ -80,10 +80,10 @@ autogen/sl_iostream_handles.o: ../autogen/sl_iostream_handles.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/dmadrv_config.h
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 ../autogen/sl_iostream_handles.h:
@@ -162,4 +162,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/dmadrv_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h:

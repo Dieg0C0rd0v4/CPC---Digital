@@ -1,0 +1,1452 @@
+!SESSION 2023-06-29 15:02:45.648 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data F:\Diego Cordova\CPC - Digital
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:02:48.416
+!MESSAGE Jetty listening on: http://127.0.0.1:51720/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:02:48.431
+!MESSAGE ContentServer started at: 127.0.0.1, 51720
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:02:48.447
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:02:52.682
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:02:55.782
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.support.browser.html 1 0 2023-06-29 15:02:56.305
+!MESSAGE Browser workarea set to: F:\Diego Cordova\CPC - Digital\.browser
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:03:06.623
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2023-06-29 15:03:06.873
+!MESSAGE AdapterPack Device inspector for Exx32 and EFM8 hardware has setupcheck function type 
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:03:32.445
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:04:20.262
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:08:19.521
+!MESSAGE Warning: C:\Users\DCordova\SimplicityStudio\SDKs\gecko_sdk\gecko_sdk.slcs
+  - Post build profile folder extension/homekit/app/postbuild_profile/ does not exist.
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 15:09:57.071
+!MESSAGE Indexed 'CLI_Ethernet' (76 sources, 264 headers) in 12.2 sec: 11,055 declarations; 35,566 references; 0 unresolved inclusions; 39 syntax errors; 17 unresolved names (0.036%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 15:25:07.398
+!MESSAGE Indexed 'SPI_slave' (52 sources, 177 headers) in 3.75 sec: 10,682 declarations; 31,866 references; 0 unresolved inclusions; 32 syntax errors; 17 unresolved names (0.04%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:25:24.797
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:25:24.797
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:25:24.813
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:25:24.813
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.silabs.ss.platform.rcp.core 4 0 2023-06-29 15:26:00.251
+!MESSAGE Demo information file is empty at C:\SiliconLabs\SimplicityStudio\v5\configuration\org.eclipse.osgi\358\0\.cp\demos\demos.xml
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:26:01.445
+!MESSAGE Unknown architecture(s) [efm32~series[2]~device_configuration[4]] in sample app Internal Storage Bootloader (single image on 512kB device with 131072k flash base)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:26:01.464
+!MESSAGE Unknown architecture(s) [efm32~series[2]~device_configuration[4]] in sample app Internal Storage Bootloader (single image on 1536kB device with 131072k flash base)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:26:01.482
+!MESSAGE Unknown architecture(s) [efm32~series[2]~device_configuration[2]~flash[352K]] in sample app Internal Storage Bootloader (single image on 352kB device)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:26:01.501
+!MESSAGE Unknown architecture(s) [efm32~series[2]~device_configuration[4]] in sample app Internal Storage Bootloader (single image on 352kB device with 131072k flash base)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:31:27.233
+!MESSAGE selectedProfileId: null; defaultProfileId: GNU with spaces
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 15:31:38.748
+!MESSAGE Indexed 'SPI_Slave_Testing' (52 sources, 177 headers) in 3.61 sec: 10,682 declarations; 31,873 references; 0 unresolved inclusions; 32 syntax errors; 17 unresolved names (0.04%)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:01.886
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.tool.launcher.product.id.metadata.resource,5.6.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:04.765
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.support.jep.feature.metadata.resource,4.0.2.202306151654-39.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:07.025
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.inspect_emdll.feature.metadata.resource,4.0.46.202306192158-802.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:08.118
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.external.jxbrowser.feature.metadata.resource,7.29.0.202306211508-38.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:09.090
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.exx32.feature.metadata.resource,4.0.53.202306221047-1716.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:32:10.647
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.framework.uc.feature.metadata.resource,5.6.5.202306232118-587.
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:32:37.243
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:06.472
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.external.jxbrowser,7.29.0.202306211508-38.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:06.488
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.external.jxbrowser.win64,7.29.0.202306211508-38.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:06.503
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.external.jep.win32.x86_64,3.7.1.202306151838-19.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:06.519
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.external.jep,3.7.1.202306151838-19.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:07.318
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.support.jep,4.0.0.202306151654-39.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:07.864
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.commander.feature,4.0.51.202306221331-514.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:08.190
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.commander.feature_root,4.0.51.202306221331-514.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:08.367
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.commander.feature_root.win32.win32.x86_64,4.0.51.202306221331-514.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:08.765
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.exx32.feature,4.0.53.202306221047-1716.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:09.020
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.exx32.feature_root,4.0.53.202306221047-1716.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:09.331
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.exx32.feature_root.win32.win32.x86_64,4.0.53.202306221047-1716.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:13.549
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.inspect_emdll.feature,4.0.46.202306192158-802.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:14.027
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.inspect_emdll.feature_root,4.0.46.202306192158-802.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:14.259
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.apack.inspect_emdll.feature_root.win32.win32.x86_64,4.0.46.202306192158-802.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:20.642
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.external.jep.feature,3.7.4.202306151838-19.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:21.092
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.external.jep.feature_root,3.7.4.202306151838-19.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:21.298
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.external.jxbrowser.feature,7.29.0.202306211508-38.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:21.532
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.external.jxbrowser.feature_root,7.29.0.202306211508-38.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:21.736
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.framework.uc.core,5.3.0.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:21.832
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.framework.uc.extension,5.2.0.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:22.455
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.framework.uc.feature,5.6.5.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:22.832
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.ss.framework.uc.feature_root,5.6.5.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:23.033
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.support.jep.feature,4.0.2.202306151654-39.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:23.529
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.ss.support.jep.feature_root,4.0.2.202306151654-39.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:23.764
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.analytics.ui,1.1.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:24.283
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.bugreport.local.ui,5.2.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:25.147
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.bugreport.salesforce.ui,5.2.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:26.119
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.bugreport.ui,5.2.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:26.276
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.ss.tool.launcher.feature,5.6.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:26.767
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.product,5.2.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:27.204
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.ss.tool.launcher.feature_root,5.6.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:27.460
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.ss.tool.launcher.product.id.root.feature_root,5.0.2.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:27.616
+!MESSAGE No digest algorithm is available to verify download of binary,com.silabs.ss.tool.launcher.product.id_root.win32.win32.x86_64,5.0.2.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:27.833
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.ss.tool.launcher.ui,5.2.0.202306221702-750.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:34.524
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.uc.cli.instrumented.configuration,1.0.0.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:33:35.369
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.silabs.uc.cli.product,5.3.0.202306232118-587.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.500
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.500
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.501
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\apack_c8051.package -> C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\apack_c8051.package. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\apack_c8051.package
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.510
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5 not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.536
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.552
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.567
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\changelog -> C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\changelog. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature\changelog
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.583
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.599
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.599
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.614
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2 not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_e153a22d-8510-431e-8a49-169754cfddf2
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.630
+!MESSAGE 24 items out of 26 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-06-29 15:34:01.645
+!MESSAGE An error occurred while committing the engine session for profile: studio.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:34:01.645
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: studio_e153a22d-8510-431e-8a49-169754cfddf2.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:165)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-06-29 15:34:01.646
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-06-29 15:34:01.646
+!MESSAGE session context was:(profile=studio, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]com.silabs.apack.c8051.feature_root.win32.win32.x86_64 5.0.2.202212132241-1537 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-06-29 15:34:01.646
+!MESSAGE File is not a directory: C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature
+!STACK 0
+java.lang.IllegalArgumentException: File is not a directory: C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.c8051.feature
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backupDirectory(SimpleBackupStore.java:271)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backupDirectory(LazyBackupStore.java:44)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:121)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:165)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:34:17.438
+!MESSAGE Deleted Shared Daemon File: C:\Users\DCordova\.uc\cli\mainstudio.running
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:34:17.454
+!MESSAGE Deleted Shared Daemon Version File: C:\Users\DCordova\.uc\cli\mainstudio.running.version
+!SESSION 2023-06-29 15:34:18.154 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data F:\Diego Cordova\CPC - Digital
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:34:45.351
+!MESSAGE Jetty listening on: http://127.0.0.1:52243/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:34:45.371
+!MESSAGE ContentServer started at: 127.0.0.1, 52243
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:34:45.401
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:34:48.974
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:34:52.122
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:35:00.142
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2023-06-29 15:35:00.269
+!MESSAGE AdapterPack Device inspector for Exx32 and EFM8 hardware has setupcheck function type 
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:35:28.332
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:35:38.706
+!MESSAGE File download canceled: C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\assets\assets_com.silabs.sdk.stack.super_4.0.1.assets3.tmp
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:35:39.486
+!MESSAGE Failed to load assets.manifest file.  Exception: null
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.checkForCancellation(SubMonitor.java:274)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.reportTrivialOperation(SubMonitor.java:283)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:985)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:895)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.downloadFile(AssetService.java:998)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.fetchAssetsFiles(AssetService.java:1101)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.checkForUpdates(AssetService.java:507)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:234)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:278)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.tool.installer.core 4 0 2023-06-29 15:35:39.657
+!MESSAGE OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:236)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:278)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.support.browser.html 1 0 2023-06-29 15:35:39.923
+!MESSAGE Browser workarea set to: F:\Diego Cordova\CPC - Digital\.browser
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:36:31.101
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:37:01.071
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.193
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\bearer not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\bearer
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.209
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\Si917_Flashloader.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\Si917_Flashloader.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\Si917_Flashloader.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.224
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.240
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.255
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats not empty: ..,..,..,..,..,..,..,..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.271
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.287
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qico.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qico.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qico.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.304
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2.JLinkScript -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2.JLinkScript. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2.JLinkScript
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.337
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\iconengines\qsvgicon.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\iconengines\qsvgicon.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\iconengines\qsvgicon.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.354
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qjpeg.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qjpeg.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qjpeg.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.369
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtiff.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtiff.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtiff.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.385
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.412
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander not empty: ..,..,..,..,..,..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.451
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DebugAdapter.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DebugAdapter.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DebugAdapter.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.469
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\json not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\json
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.484
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qicns.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qicns.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qicns.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.500
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.520
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\Readme.txt -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\Readme.txt. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\Readme.txt
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.551
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services not empty: ..,..,..,..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.567
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\common.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\common.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\common.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.596
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\changelog -> C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\changelog. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\changelog
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.616
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.632
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink not empty: ..,..,..,..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.667
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2UD.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2UD.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2\Series2UD.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.691
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.716
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\apack_efm8.package -> C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\apack_efm8.package. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature\apack_efm8.package
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.741
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\tokens-example-efr32.json -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\tokens-example-efr32.json. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens\tokens-example-efr32.json
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.766
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.791
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtga.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtga.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qtga.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.815
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\__init__.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\__init__.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib\__init__.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.840
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\_lib
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.865
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\platforms\qwindows.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\platforms\qwindows.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\platforms\qwindows.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.890
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\Memory.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\Memory.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\Memory.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.922
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5 not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.945
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG28 not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG28
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.961
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27 not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:39.995
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917 not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.012
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.033
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qsvg.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qsvg.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qsvg.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.068
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\SI9117_DF_4MB.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\SI9117_DF_4MB.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\Si917\SI9117_DF_4MB.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.097
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.120
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG25 not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG25
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.136
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\RunControl.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\RunControl.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\RunControl.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.152
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\bearer\qgenericbearer.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\bearer\qgenericbearer.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\bearer\qgenericbearer.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.168
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\iconengines not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\iconengines
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.201
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwbmp.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwbmp.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwbmp.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.219
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.234
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\styles not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\styles
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.250
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051 not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.266
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\styles\qwindowsvistastyle.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\styles\qwindowsvistastyle.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\styles\qwindowsvistastyle.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.296
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration\studio
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.329
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.JlinkScript -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.JlinkScript. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG27\EFR32XG27.JlinkScript
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.349
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\platforms not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\platforms
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.390
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\tokens
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.420
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\json\default_8051.json -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\json\default_8051.json. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\json\default_8051.json
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.436
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG25\EFR32XG25.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG25\EFR32XG25.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG25\EFR32XG25.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.463
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.503
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.520
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DeviceSupport.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DeviceSupport.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\DeviceSupport.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.536
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qgif.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qgif.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qgif.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.552
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwebp.dll -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwebp.dll. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\imageformats\qwebp.dll
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.572
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG28\EFR32XG28.elf -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG28\EFR32XG28.elf. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32XG28\EFR32XG28.elf
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.601
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration not empty: ... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\configuration
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.617
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\__init__.py -> C:\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\__init__.py. Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\c8051\python\Studio\agent\services\__init__.py
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.646
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2 not empty: ..,... Manual restore of backup needed for: C:\Users\DCordova\AppData\Local\Temp\studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a\C\SiliconLabs\SimplicityStudio\v5\developer\adapter_packs\commander\resources\jlink\EFR32Series2
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.685
+!MESSAGE 82 items out of 115 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-06-29 15:37:40.719
+!MESSAGE An error occurred while committing the engine session for profile: studio.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2023-06-29 15:37:40.719
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: studio_01f2b0aa-b242-4742-b6c5-e400c4ce1c4a.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:165)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-06-29 15:37:40.758
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-06-29 15:37:40.758
+!MESSAGE session context was:(profile=studio, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]com.silabs.apack.efm8.feature_root.win32.win32.x86_64 5.0.8.202212140035-1985 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-06-29 15:37:40.758
+!MESSAGE File is not a directory: C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature
+!STACK 0
+java.lang.IllegalArgumentException: File is not a directory: C:\SiliconLabs\SimplicityStudio\v5\configuration\studio\metadata\com.silabs.apack.efm8.feature
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backupDirectory(SimpleBackupStore.java:271)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backupDirectory(LazyBackupStore.java:44)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:121)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:165)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:38:10.627
+!MESSAGE Deleted Shared Daemon File: C:\Users\DCordova\.uc\cli\mainstudio.running
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:38:10.645
+!MESSAGE Deleted Shared Daemon Version File: C:\Users\DCordova\.uc\cli\mainstudio.running.version
+!SESSION 2023-06-29 15:38:11.116 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data F:\Diego Cordova\CPC - Digital
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:38:15.888
+!MESSAGE Jetty listening on: http://127.0.0.1:52401/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2023-06-29 15:38:15.907
+!MESSAGE ContentServer started at: 127.0.0.1, 52401
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:38:15.932
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:38:19.239
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:38:22.439
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:38:29.381
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2023-06-29 15:38:29.508
+!MESSAGE AdapterPack Device inspector for Exx32 and EFM8 hardware has setupcheck function type 
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:38:48.729
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.support.browser.html 1 0 2023-06-29 15:38:48.895
+!MESSAGE Browser workarea set to: F:\Diego Cordova\CPC - Digital\.browser
+
+!ENTRY com.silabs.ss.tool.installer.core 4 0 2023-06-29 15:38:51.704
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at com.silabs.ss.tool.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1943)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:212)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:278)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.tool.installer.ui 4 0 2023-06-29 15:38:51.722
+!MESSAGE failed to serve req /rest/installer/updatePackages
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:288)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:381)
+	at org.eclipse.jface.window.Window.createShell(Window.java:487)
+	at org.eclipse.jface.window.Window.create(Window.java:430)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:633)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:542)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:467)
+	at com.silabs.ss.tool.internal.api.installer.core.ui.InstallerUI.ensurePackagesFetched(InstallerUI.java:265)
+	at com.silabs.ss.tool.installer.ui.manager.servlets.UpdatesProviderServlet.getUpdates(UpdatesProviderServlet.java:90)
+	at com.silabs.ss.tool.installer.ui.manager.servlets.UpdatesProviderServlet.doGet(UpdatesProviderServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:508)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1372)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:463)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1294)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:562)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:406)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:663)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:398)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:319)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SocketChannelEndPoint$1.run(SocketChannelEndPoint.java:101)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:412)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:381)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:268)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.lambda$new$0(AdaptiveExecutionStrategy.java:138)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:378)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:894)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1038)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2023-06-29 15:39:41.125
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v5\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2023-06-29 15:39:53.869
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-06-29 15:39:55.149
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.silabs.apack.commander.feature.metadata.resource,4.0.51.202306221331-514.
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2023-06-29 15:44:12.984
+!MESSAGE Warning: C:\Users\DCordova\SimplicityStudio\SDKs\gecko_sdk\gecko_sdk.slcs
+  - Post build profile folder extension/homekit/app/postbuild_profile/ does not exist.
+
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:45:29.213
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:45:29.214
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:45:29.232
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:45:29.232
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:45:35.562
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:45:35.563
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:45:35.579
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:45:35.580
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2023-06-29 15:47:09.246
+!MESSAGE File not found
+!STACK 0
+java.io.FileNotFoundException: F:\Diego Cordova\CPC - Digital\.metadata\.plugins\com.ember.core\binary_image_model.state (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.ember.workbench.EmberWorkbench.load(EmberWorkbench.java:427)
+	at com.ember.workbench.binaryimage.BinaryImageModel.startup(BinaryImageModel.java:102)
+	at com.ember.workbench.binaryimage.BinaryImageModel.instance(BinaryImageModel.java:93)
+	at com.ember.workbench.ethernet.variant.Wstk.needsBackchannelUpdate(Wstk.java:168)
+	at com.ember.workbench.ethernet.WirelessAdapterProxy.requiresFirmwareUpdate(WirelessAdapterProxy.java:146)
+	at com.ember.workbench.ethernet.IWirelessAdapter.requiresFirmwareUpdate(IWirelessAdapter.java:48)
+	at com.ember.workbench.ethernet.capability.ConnectSetup.getParameter(ConnectSetup.java:48)
+	at com.silabs.ss.platform.api.capability.Capability.getCapabilityParameter(Capability.java:293)
+	at com.silabs.ss.platform.api.capability.Capability.runCapability(Capability.java:243)
+	at com.silabs.ss.platform.api.capability.Capability.runCapability(Capability.java:228)
+	at com.silabs.ss.platform.api.device.core.BasicDevice.run(BasicDevice.java:185)
+	at com.ember.workbench.cockpit.editor.Cockpit.init(Cockpit.java:99)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:787)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1261)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3207)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3097)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3095)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3065)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3048)
+	at com.ember.workbench.cockpit.editor.Cockpit.open(Cockpit.java:463)
+	at com.ember.workbench.cockpit.editor.Cockpit.open(Cockpit.java:497)
+	at com.ember.workbench.cockpit.action.CockpitHandler.execute(CockpitHandler.java:52)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:47:52.344
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:47:52.344
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:47:52.361
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:47:52.361
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:47:53.410
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.contribute(PropertyPageContributorManager.java:114)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:64)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.createDialog(PropertyDialogAction.java:169)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:151)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:47:53.410
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-06-29 15:47:53.427
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.contribute(PropertyPageContributorManager.java:114)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:64)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.createDialog(PropertyDialogAction.java:169)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:151)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:38)
+	at com.silabs.ss.tool.launcher.internal.product.StudioV5Application.start(StudioV5Application.java:28)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-06-29 15:47:53.427
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.resources 4 1 2023-06-29 15:52:08.166
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2023-06-29 15:52:08.166
+!MESSAGE Problem finding next change, code: 995

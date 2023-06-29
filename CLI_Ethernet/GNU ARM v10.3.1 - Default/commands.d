@@ -1,6 +1,6 @@
 commands.o: ../commands.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_simple_led_instances.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_simple_led_instances.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_simple_led.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_led.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
@@ -78,12 +78,12 @@ commands.o: ../commands.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  ../commands.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_simple_led_instances.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_simple_led_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_simple_led.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_led.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
@@ -161,7 +161,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 ../commands.h:

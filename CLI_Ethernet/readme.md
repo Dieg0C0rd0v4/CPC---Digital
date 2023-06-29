@@ -1,13 +1,9 @@
-# CLI Bare Metal Application
+# CLI Interface 
 
-This example project demonstrates use of the command line interface component in a bare metal environment.
+Projects contains the Command Line Interface functionality
 
 You can use the command line interface over the VCOM serial port.
-The example provides three commands:
-* echo-str: Echoes the input arguments as strings.
-* echo-int: Parses the input arguments as integers before echoing them.
-* LED: Allows the user to turn on, turn off, or toggle the LEDs on the board.
+Use "help" for the list of commands
 
-## Requirements
 
-Silicon Labs board with USART and on-board LED.
+# This code was developed for the EFM32GG12 microcontroller - with the thunderboard developing kit. 

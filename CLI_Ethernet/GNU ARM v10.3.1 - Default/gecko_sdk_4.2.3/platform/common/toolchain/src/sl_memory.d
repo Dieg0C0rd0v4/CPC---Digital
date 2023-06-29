@@ -71,7 +71,7 @@ gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b_af_pins.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_memory_config.h
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_memory_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b810f1024gm64.h:
@@ -143,4 +143,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b_af_pins.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_memory_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_memory_config.h:

@@ -4,7 +4,7 @@ gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_board_control_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_board_control_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b810f1024gm64.h \
@@ -79,8 +79,8 @@ gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h
@@ -88,7 +88,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_board_control_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_board_control_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b810f1024gm64.h:
@@ -163,8 +163,8 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:

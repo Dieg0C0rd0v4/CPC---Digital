@@ -77,8 +77,8 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_nvic.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
@@ -90,7 +90,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_sleeptimer_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h \
  ../autogen/sl_iostream_init_usart_instances.h \
  ../autogen/sl_component_catalog.h \
@@ -100,7 +100,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/dmadrv_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h \
  ../autogen/sl_simple_led_instances.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_simple_led.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_led.h \
@@ -110,12 +110,12 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/spidrv_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/spidrv_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h \
  ../autogen/sl_cli_instances.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_types.h \
- C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_cli_config.h \
+ F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_command.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_arguments.h \
  ../autogen/sl_iostream_init_instances.h
@@ -197,8 +197,8 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\autogen/sl_component_catalog.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/emlib_core_debug_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_nvic.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
@@ -210,7 +210,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\i
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_sleeptimer_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h:
 ../autogen/sl_iostream_init_usart_instances.h:
 ../autogen/sl_component_catalog.h:
@@ -220,7 +220,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/dmadrv_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h:
 ../autogen/sl_simple_led_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_simple_led.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_led.h:
@@ -230,12 +230,12 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spid
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/spidrv_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/spidrv_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:
 ../autogen/sl_cli_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_types.h:
-C:\Users\DCordova\Desktop\simplicity\ workplace\CLI_Ethernet\config/sl_cli_config.h:
+F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_command.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_arguments.h:
 ../autogen/sl_iostream_init_instances.h:

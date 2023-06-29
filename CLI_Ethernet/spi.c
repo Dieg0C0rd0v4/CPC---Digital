@@ -25,13 +25,7 @@ void transfer_callback(SPIDRV_HandleData_t* handle, Ecode_t transferStatus, int 
 }
 ////////////////////////////////////////////////////////////////////////////////////////
 void spidrv_app_process(){
-
-  //ecode = SPIDRV_MTransfer(handleSPI, txBuffer, rxBuffer, bufferSize, transfer_callback);
-  //strcpy(txBuffer, "Data 21");
- // ecode = SPIDRV_MTransmit(handleSPI,txBuffer,16,transfer_callback);
-  //EFM_ASSERT(ecode == ECODE_OK);
-  sendData();
-  //recieveData();
+  recieveData();
 }
 ////////////////////////////////////////////////////////////////////////////////////////
 
