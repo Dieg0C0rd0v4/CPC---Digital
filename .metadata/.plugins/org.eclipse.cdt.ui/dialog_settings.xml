@@ -4,4 +4,19 @@
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="sl_emlib_gpio_init_start_SPI_config"/>
+			<item value="sl_emlib_gpio_simple_init"/>
+			<item value="PC4"/>
+			<item value="dummyTxValue"/>
+			<item value="SPIDRV_Init"/>
+		</list>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item key="size.width" value="714"/>
+		<item key="size.height" value="180"/>
+	</section>
 </section>

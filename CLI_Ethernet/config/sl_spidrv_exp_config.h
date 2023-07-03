@@ -29,7 +29,7 @@
 
 // <o SL_SPIDRV_EXP_FRAME_LENGTH> SPI frame length <4-16>
 // <i> Default: 8
-#define SL_SPIDRV_EXP_FRAME_LENGTH      8
+#define SL_SPIDRV_EXP_FRAME_LENGTH      16
 
 // <o SL_SPIDRV_EXP_TYPE> SPI mode
 // <spidrvMaster=> Master

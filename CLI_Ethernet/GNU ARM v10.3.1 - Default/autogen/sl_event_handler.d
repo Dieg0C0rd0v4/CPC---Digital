@@ -91,6 +91,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h \
+ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h \
  ../autogen/sl_iostream_init_usart_instances.h \
  ../autogen/sl_component_catalog.h \
@@ -211,6 +212,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\i
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h:
+c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h:
 ../autogen/sl_iostream_init_usart_instances.h:
 ../autogen/sl_component_catalog.h:

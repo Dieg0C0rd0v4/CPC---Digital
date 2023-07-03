@@ -84,15 +84,16 @@ void spidrv_app_process_action(void)
   Ecode_t ecode;
 
   // send a string that includes an incrementing counter
-  sprintf(tx_buffer, "pong %03d", counter);
+  //sprintf(tx_buffer, "pong %03d", counter);
   counter++;
-  printf("Sending %s to master...\r\n", tx_buffer);
+  //printf("Sending %s to master...\r\n", tx_buffer);
 
   transfer_complete = false;
 
   // Non-blocking data transfer to master. When complete, rx buffer
   // will be filled.
-  ecode = SPIDRV_STransfer(SPI_HANDLE, tx_buffer, rx_buffer, APP_BUFFER_SIZE, transfer_callback, 0);
+  //ecode = SPIDRV_STransfer(SPI_HANDLE, tx_buffer, rx_buffer, APP_BUFFER_SIZE, transfer_callback, 0);
+  ecode = SPIDRV_SReceive(SPI_HANDLE, rx_buffer, APP_BUFFER_SIZE,transfer_callback,0);
   EFM_ASSERT(ecode == ECODE_OK);
 
   // wait for transfer to complete

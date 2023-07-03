@@ -109,6 +109,7 @@ void stateSTAN(){
 // Gets the current status of state the microchip/system <SPI use>
 void stateGET(){
   printf("Testing communication protocol...");
+
   spidrv_app_process();
 }
 ////////////////////////////////////////////////////////////////////////////////////////

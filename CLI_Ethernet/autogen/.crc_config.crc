@@ -8,6 +8,7 @@ sl_device_init_dcdc_config.h=-1580606003
 sl_device_init_emu_config.h=-1292589747
 sl_device_init_hfxo_config.h=-556589479
 sl_device_init_lfxo_config.h=1709710440
+sl_emlib_gpio_init_start_SPI_config.h=90813991
 sl_iostream_usart_vcom_config.h=-1002778497
 sl_memory_config.h=687128566
 sl_simple_led_instled5_config.h=-1487269857
