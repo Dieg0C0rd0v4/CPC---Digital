@@ -618,8 +618,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
  .debug_macro   0x00000000      0x16f ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
  .debug_macro   0x00000000      0x375 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
- .debug_line    0x00000000      0xc1c ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
- .debug_str     0x00000000   0x1c0dc4 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
+ .debug_line    0x00000000      0xc2e ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
+ .debug_str     0x00000000   0x1c0dcd ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
  .ARM.attributes
                 0x00000000       0x32 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtc.o
@@ -947,8 +947,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
  .debug_macro   0x00000000      0x16f ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
  .debug_macro   0x00000000      0x375 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
- .debug_line    0x00000000      0xc20 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
- .debug_str     0x00000000   0x1c112b ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
+ .debug_line    0x00000000      0xc32 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
+ .debug_str     0x00000000   0x1c1134 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
  .ARM.attributes
                 0x00000000       0x32 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.o
@@ -4237,8 +4237,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
  .debug_macro   0x00000000      0x16f ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
  .debug_macro   0x00000000      0x375 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
- .debug_line    0x00000000     0x1473 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
- .debug_str     0x00000000   0x1bdd16 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
+ .debug_line    0x00000000     0x1485 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
+ .debug_str     0x00000000   0x1bdd1f ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
  .debug_frame   0x00000000      0x144 ./gecko_sdk_4.2.3/platform/emlib/src/em_msc.o
  .ARM.attributes
@@ -4401,8 +4401,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xd0 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
  .debug_macro   0x00000000       0x10 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
  .debug_macro   0x00000000       0xf6 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
- .debug_line    0x00000000      0xcda ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
- .debug_str     0x00000000   0x1b94db ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
+ .debug_line    0x00000000      0xcec ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
+ .debug_str     0x00000000   0x1b94e4 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
  .debug_frame   0x00000000       0x84 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtc.o
  .ARM.attributes
@@ -4693,7 +4693,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
  .debug_macro   0x00000000      0x16d ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
  .debug_line    0x00000000      0xb41 ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
- .debug_str     0x00000000   0x1b88e6 ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
+ .debug_str     0x00000000   0x1b88ef ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
  .debug_frame   0x00000000       0x50 ./gecko_sdk_4.2.3/platform/emlib/src/em_system.o
  .ARM.attributes
@@ -4849,7 +4849,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
  .debug_macro   0x00000000       0x7f ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
  .debug_line    0x00000000      0xece ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
- .debug_str     0x00000000   0x1b8f09 ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
+ .debug_str     0x00000000   0x1b8f12 ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
  .comment       0x00000000       0x4a ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
  .debug_frame   0x00000000       0xa4 ./gecko_sdk_4.2.3/platform/emlib/src/em_timer.o
  .ARM.attributes
@@ -7342,8 +7342,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x35d ./autogen/sl_iostream_handles.o
  .debug_macro   0x00000000       0x10 ./autogen/sl_iostream_handles.o
  .debug_macro   0x00000000       0x35 ./autogen/sl_iostream_handles.o
- .debug_line    0x00000000      0xd72 ./autogen/sl_iostream_handles.o
- .debug_str     0x00000000   0x1c2d1a ./autogen/sl_iostream_handles.o
+ .debug_line    0x00000000      0xd84 ./autogen/sl_iostream_handles.o
+ .debug_str     0x00000000   0x1c2d23 ./autogen/sl_iostream_handles.o
  .comment       0x00000000       0x4a ./autogen/sl_iostream_handles.o
  .debug_frame   0x00000000       0x28 ./autogen/sl_iostream_handles.o
  .ARM.attributes
@@ -7974,8 +7974,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./autogen/sli_cli_hooks.o
  .debug_macro   0x00000000       0x82 ./autogen/sli_cli_hooks.o
  .debug_macro   0x00000000       0x4f ./autogen/sli_cli_hooks.o
- .debug_line    0x00000000      0x608 ./autogen/sli_cli_hooks.o
- .debug_str     0x00000000     0xc1d6 ./autogen/sli_cli_hooks.o
+ .debug_line    0x00000000      0x61a ./autogen/sli_cli_hooks.o
+ .debug_str     0x00000000     0xc1df ./autogen/sli_cli_hooks.o
  .comment       0x00000000       0x4a ./autogen/sli_cli_hooks.o
  .ARM.attributes
                 0x00000000       0x32 ./autogen/sli_cli_hooks.o
@@ -12180,177 +12180,177 @@ LOAD linker stubs
  .debug_macro   0x00051125      0x381 ./autogen/sl_emlib_gpio_simple_init.o
  .debug_macro   0x000514a6       0x22 ./autogen/sl_emlib_gpio_simple_init.o
 
-.debug_line     0x00000000    0x2fecc
+.debug_line     0x00000000    0x301c9
  .debug_line    0x00000000      0xabe ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o
  .debug_line    0x00000abe       0x97 ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
- .debug_line    0x00000b55      0x157 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_init.o
- .debug_line    0x00000cac      0x160 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_process_action.o
- .debug_line    0x00000e0c     0x1a39 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_line    0x00002845     0x10f7 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_line    0x0000393c      0xeb6 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o
- .debug_line    0x000047f2      0xd55 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
- .debug_line    0x00005547      0x432 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_stdlib_config.o
- .debug_line    0x00005979     0x14d6 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
- .debug_line    0x00006e4f     0x115a ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_usart.o
- .debug_line    0x00007fa9      0xbce ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
- .debug_line    0x00008b77      0xbe9 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_emu_s1.o
- .debug_line    0x00009760      0xc4f ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
- .debug_line    0x0000a3af      0xc1c ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
- .debug_line    0x0000afcb      0xb91 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_nvic.o
- .debug_line    0x0000bb5c     0x1048 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
- .debug_line    0x0000cba4      0xbb5 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_arguments.o
- .debug_line    0x0000d759      0xf49 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
- .debug_line    0x0000e6a2      0xf51 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
- .debug_line    0x0000f5f3      0x639 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_io.o
- .debug_line    0x0000fc2c      0x808 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_tokenize.o
- .debug_line    0x00010434     0x3806 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
- .debug_line    0x00013c3a     0x123f ./gecko_sdk_4.2.3/platform/emlib/src/em_core.o
- .debug_line    0x00014e79     0x27a6 ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
- .debug_line    0x0001761f      0xfea ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
- .debug_line    0x00018609      0xf8d ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
- .debug_line    0x00019596      0xd4e ./gecko_sdk_4.2.3/platform/emlib/src/em_rtcc.o
- .debug_line    0x0001a2e4     0x14bf ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
- .debug_line    0x0001b7a3     0x2600 ./gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o
- .debug_line    0x0001dda3     0x13b0 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
- .debug_line    0x0001f153      0x40f ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_led.o
- .debug_line    0x0001f562      0xe12 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_simple_led.o
- .debug_line    0x00020374      0xa7f ./gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o
- .debug_line    0x00020df3      0x1dc ./gecko_sdk_4.2.3/platform/common/src/sl_assert.o
- .debug_line    0x00020fcf      0x6db ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
- .debug_line    0x000216aa      0x752 ./gecko_sdk_4.2.3/platform/common/src/sl_string.o
- .debug_line    0x00021dfc      0xa66 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/startup_efm32gg12b.o
- .debug_line    0x00022862      0xb5d ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
- .debug_line    0x000233bf      0xd9a ./gecko_sdk_4.2.3/hardware/board/src/sl_board_control_gpio.o
- .debug_line    0x00024159      0xbf9 ./gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o
- .debug_line    0x00024d52      0x389 ./autogen/sl_board_default_init.o
- .debug_line    0x000250db      0x603 ./autogen/sl_cli_command_table.o
- .debug_line    0x000256de      0xf1e ./autogen/sl_cli_instances.o
- .debug_line    0x000265fc      0xbc4 ./autogen/sl_device_init_clocks.o
- .debug_line    0x000271c0     0x1384 ./autogen/sl_event_handler.o
- .debug_line    0x00028544      0xdb9 ./autogen/sl_iostream_init_usart_instances.o
- .debug_line    0x000292fd      0xcf6 ./autogen/sl_simple_led_instances.o
- .debug_line    0x00029ff3      0xe1f ./autogen/sl_spidrv_init.o
- .debug_line    0x0002ae12      0xe73 ./app.o
- .debug_line    0x0002bc85     0x11ee ./cli.o
- .debug_line    0x0002ce73      0xf38 ./commands.o
- .debug_line    0x0002ddab      0x465 ./inscryption.o
- .debug_line    0x0002e210      0x1a2 ./main.o
- .debug_line    0x0002e3b2      0xf57 ./spi.o
- .debug_line    0x0002f309      0xbc3 ./autogen/sl_emlib_gpio_simple_init.o
+ .debug_line    0x00000b55      0x160 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_init.o
+ .debug_line    0x00000cb5      0x169 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_process_action.o
+ .debug_line    0x00000e1e     0x1a4b ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_line    0x00002869     0x1109 ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_line    0x00003972      0xec8 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o
+ .debug_line    0x0000483a      0xd5e ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+ .debug_line    0x00005598      0x432 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_stdlib_config.o
+ .debug_line    0x000059ca     0x14e8 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
+ .debug_line    0x00006eb2     0x116c ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_usart.o
+ .debug_line    0x0000801e      0xbe0 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
+ .debug_line    0x00008bfe      0xbfb ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_emu_s1.o
+ .debug_line    0x000097f9      0xc61 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
+ .debug_line    0x0000a45a      0xc2e ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
+ .debug_line    0x0000b088      0xba3 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_nvic.o
+ .debug_line    0x0000bc2b     0x105a ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+ .debug_line    0x0000cc85      0xbc7 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_arguments.o
+ .debug_line    0x0000d84c      0xf5b ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+ .debug_line    0x0000e7a7      0xf63 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
+ .debug_line    0x0000f70a      0x64b ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_io.o
+ .debug_line    0x0000fd55      0x81a ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_tokenize.o
+ .debug_line    0x0001056f     0x3818 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+ .debug_line    0x00013d87     0x1251 ./gecko_sdk_4.2.3/platform/emlib/src/em_core.o
+ .debug_line    0x00014fd8     0x27b8 ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
+ .debug_line    0x00017790      0xffc ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
+ .debug_line    0x0001878c      0xf9f ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
+ .debug_line    0x0001972b      0xd60 ./gecko_sdk_4.2.3/platform/emlib/src/em_rtcc.o
+ .debug_line    0x0001a48b     0x14d1 ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
+ .debug_line    0x0001b95c     0x2612 ./gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o
+ .debug_line    0x0001df6e     0x13c2 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
+ .debug_line    0x0001f330      0x40f ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_led.o
+ .debug_line    0x0001f73f      0xe24 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_simple_led.o
+ .debug_line    0x00020563      0xa88 ./gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o
+ .debug_line    0x00020feb      0x1dc ./gecko_sdk_4.2.3/platform/common/src/sl_assert.o
+ .debug_line    0x000211c7      0x6db ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
+ .debug_line    0x000218a2      0x752 ./gecko_sdk_4.2.3/platform/common/src/sl_string.o
+ .debug_line    0x00021ff4      0xa66 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/startup_efm32gg12b.o
+ .debug_line    0x00022a5a      0xb5d ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
+ .debug_line    0x000235b7      0xdac ./gecko_sdk_4.2.3/hardware/board/src/sl_board_control_gpio.o
+ .debug_line    0x00024363      0xc0b ./gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o
+ .debug_line    0x00024f6e      0x389 ./autogen/sl_board_default_init.o
+ .debug_line    0x000252f7      0x615 ./autogen/sl_cli_command_table.o
+ .debug_line    0x0002590c      0xf30 ./autogen/sl_cli_instances.o
+ .debug_line    0x0002683c      0xbd6 ./autogen/sl_device_init_clocks.o
+ .debug_line    0x00027412     0x1396 ./autogen/sl_event_handler.o
+ .debug_line    0x000287a8      0xdcb ./autogen/sl_iostream_init_usart_instances.o
+ .debug_line    0x00029573      0xd08 ./autogen/sl_simple_led_instances.o
+ .debug_line    0x0002a27b      0xe31 ./autogen/sl_spidrv_init.o
+ .debug_line    0x0002b0ac      0xe85 ./app.o
+ .debug_line    0x0002bf31     0x1200 ./cli.o
+ .debug_line    0x0002d131      0xf4a ./commands.o
+ .debug_line    0x0002e07b      0x465 ./inscryption.o
+ .debug_line    0x0002e4e0      0x1ab ./main.o
+ .debug_line    0x0002e68b      0xf69 ./spi.o
+ .debug_line    0x0002f5f4      0xbd5 ./autogen/sl_emlib_gpio_simple_init.o
 
-.debug_str      0x00000000   0x1d7f79
- .debug_str     0x00000000   0x1b728b ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o
-                             0x1b8432 (size before relaxing)
- .debug_str     0x001b728b       0x73 ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
-                                 0xb9 (size before relaxing)
- .debug_str     0x001b72fe       0xd5 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_init.o
-                               0x2e19 (size before relaxing)
- .debug_str     0x001b73d3       0xee ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_process_action.o
-                               0x2e46 (size before relaxing)
- .debug_str     0x001b74c1     0x90ea ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer.o
-                             0x1c15b7 (size before relaxing)
- .debug_str     0x001c05ab     0x491f ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                             0x1c215b (size before relaxing)
- .debug_str     0x001c4eca      0x743 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o
-                             0x1c0b98 (size before relaxing)
- .debug_str     0x001c560d      0x4ec ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                             0x1bfffa (size before relaxing)
- .debug_str     0x001c5af9      0x395 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_stdlib_config.o
-                               0x6dda (size before relaxing)
- .debug_str     0x001c5e8e     0x39f6 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
-                             0x1c5175 (size before relaxing)
- .debug_str     0x001c9884      0xd03 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_usart.o
-                             0x1c8723 (size before relaxing)
- .debug_str     0x001ca587      0x85d ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
-                             0x1bd7f7 (size before relaxing)
- .debug_str     0x001cade4      0x2da ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_emu_s1.o
-                             0x1bd746 (size before relaxing)
- .debug_str     0x001cb0be      0x6ce ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
-                             0x1c0e79 (size before relaxing)
- .debug_str     0x001cb78c      0x19f ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
-                             0x1c08f5 (size before relaxing)
- .debug_str     0x001cb92b       0xd1 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_nvic.o
-                             0x1bd44d (size before relaxing)
- .debug_str     0x001cb9fc      0xf69 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
-                             0x1c0e9f (size before relaxing)
- .debug_str     0x001cc965      0x659 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_arguments.o
-                               0xc51a (size before relaxing)
- .debug_str     0x001ccfbe      0x83d ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
-                               0xe008 (size before relaxing)
- .debug_str     0x001cd7fb      0x2f2 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
-                               0xc2bc (size before relaxing)
- .debug_str     0x001cdaed       0x5e ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_io.o
-                               0xb900 (size before relaxing)
- .debug_str     0x001cdb4b       0x6d ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_tokenize.o
-                               0xbc77 (size before relaxing)
- .debug_str     0x001cdbb8     0x1d5e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
-                             0x1c11e0 (size before relaxing)
- .debug_str     0x001cf916      0x320 ./gecko_sdk_4.2.3/platform/emlib/src/em_core.o
-                             0x1b9b39 (size before relaxing)
- .debug_str     0x001cfc36     0x13e0 ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
-                             0x1c17b2 (size before relaxing)
- .debug_str     0x001d1016      0x2d7 ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
-                             0x1ba343 (size before relaxing)
- .debug_str     0x001d12ed      0x408 ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
-                             0x1c0a49 (size before relaxing)
- .debug_str     0x001d16f5       0x7f ./gecko_sdk_4.2.3/platform/emlib/src/em_rtcc.o
-                             0x1b9b94 (size before relaxing)
- .debug_str     0x001d1774      0x62b ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
-                             0x1bdf15 (size before relaxing)
- .debug_str     0x001d1d9f     0x2251 ./gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o
-                             0x1caa2c (size before relaxing)
- .debug_str     0x001d3ff0      0x4d3 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
-                             0x1c0d00 (size before relaxing)
- .debug_str     0x001d44c3      0x104 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_led.o
-                               0x797c (size before relaxing)
- .debug_str     0x001d45c7      0x171 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_simple_led.o
-                             0x1c101d (size before relaxing)
- .debug_str     0x001d4738      0x138 ./gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o
-                             0x1b871f (size before relaxing)
- .debug_str     0x001d4870       0x52 ./gecko_sdk_4.2.3/platform/common/src/sl_assert.o
-                               0x2e48 (size before relaxing)
- .debug_str     0x001d48c2       0xcf ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
-                               0x7152 (size before relaxing)
- .debug_str     0x001d4991       0xc8 ./gecko_sdk_4.2.3/platform/common/src/sl_string.o
-                               0x794f (size before relaxing)
- .debug_str     0x001d4a59      0x168 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/startup_efm32gg12b.o
-                             0x1b84a7 (size before relaxing)
- .debug_str     0x001d4bc1      0x165 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
-                             0x1b88d2 (size before relaxing)
- .debug_str     0x001d4d26      0x3e3 ./gecko_sdk_4.2.3/hardware/board/src/sl_board_control_gpio.o
-                             0x1bddd7 (size before relaxing)
- .debug_str     0x001d5109       0x8a ./gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o
-                             0x1c0ca1 (size before relaxing)
- .debug_str     0x001d5193       0x23 ./autogen/sl_board_default_init.o
-                               0x78e5 (size before relaxing)
- .debug_str     0x001d51b6       0x3f ./autogen/sl_cli_command_table.o
-                               0xc139 (size before relaxing)
- .debug_str     0x001d51f5      0x308 ./autogen/sl_cli_instances.o
-                             0x1c440f (size before relaxing)
- .debug_str     0x001d54fd       0x52 ./autogen/sl_device_init_clocks.o
-                             0x1c0f71 (size before relaxing)
- .debug_str     0x001d554f      0x1bb ./autogen/sl_event_handler.o
-                             0x1c98f9 (size before relaxing)
- .debug_str     0x001d570a      0x875 ./autogen/sl_iostream_init_usart_instances.o
-                             0x1c69f5 (size before relaxing)
- .debug_str     0x001d5f7f      0x84b ./autogen/sl_simple_led_instances.o
-                             0x1be288 (size before relaxing)
- .debug_str     0x001d67ca      0x2f5 ./autogen/sl_spidrv_init.o
-                             0x1c87c7 (size before relaxing)
- .debug_str     0x001d6abf       0x54 ./app.o
-                             0x1c1e16 (size before relaxing)
- .debug_str     0x001d6b13      0x2b8 ./cli.o
-                             0x1c246c (size before relaxing)
- .debug_str     0x001d6dcb       0x2d ./commands.o
-                             0x1c13a4 (size before relaxing)
- .debug_str     0x001d6df8      0xfbd ./inscryption.o
-                               0x7b52 (size before relaxing)
- .debug_str     0x001d7db5       0x44 ./main.o
-                               0x31f9 (size before relaxing)
- .debug_str     0x001d7df9       0x8c ./spi.o
-                             0x1c8b21 (size before relaxing)
- .debug_str     0x001d7e85       0xf4 ./autogen/sl_emlib_gpio_simple_init.o
-                             0x1bd1e9 (size before relaxing)
+.debug_str      0x00000000   0x1d7f82
+ .debug_str     0x00000000   0x1b7294 ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o
+                             0x1b843b (size before relaxing)
+ .debug_str     0x001b7294       0x73 ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+                                 0xc2 (size before relaxing)
+ .debug_str     0x001b7307       0xd5 ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_init.o
+                               0x2e22 (size before relaxing)
+ .debug_str     0x001b73dc       0xee ./gecko_sdk_4.2.3/platform/service/system/src/sl_system_process_action.o
+                               0x2e4f (size before relaxing)
+ .debug_str     0x001b74ca     0x90ea ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer.o
+                             0x1c15c0 (size before relaxing)
+ .debug_str     0x001c05b4     0x491f ./gecko_sdk_4.2.3/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                             0x1c2164 (size before relaxing)
+ .debug_str     0x001c4ed3      0x743 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o
+                             0x1c0ba1 (size before relaxing)
+ .debug_str     0x001c5616      0x4ec ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                             0x1c0003 (size before relaxing)
+ .debug_str     0x001c5b02      0x395 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_stdlib_config.o
+                               0x6de3 (size before relaxing)
+ .debug_str     0x001c5e97     0x39f6 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
+                             0x1c517e (size before relaxing)
+ .debug_str     0x001c988d      0xd03 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_usart.o
+                             0x1c872c (size before relaxing)
+ .debug_str     0x001ca590      0x85d ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
+                             0x1bd800 (size before relaxing)
+ .debug_str     0x001caded      0x2da ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_emu_s1.o
+                             0x1bd74f (size before relaxing)
+ .debug_str     0x001cb0c7      0x6ce ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
+                             0x1c0e82 (size before relaxing)
+ .debug_str     0x001cb795      0x19f ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
+                             0x1c08fe (size before relaxing)
+ .debug_str     0x001cb934       0xd1 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_nvic.o
+                             0x1bd456 (size before relaxing)
+ .debug_str     0x001cba05      0xf69 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                             0x1c0ea8 (size before relaxing)
+ .debug_str     0x001cc96e      0x659 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_arguments.o
+                               0xc523 (size before relaxing)
+ .debug_str     0x001ccfc7      0x83d ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+                               0xe011 (size before relaxing)
+ .debug_str     0x001cd804      0x2f2 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
+                               0xc2c5 (size before relaxing)
+ .debug_str     0x001cdaf6       0x5e ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_io.o
+                               0xb909 (size before relaxing)
+ .debug_str     0x001cdb54       0x6d ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_tokenize.o
+                               0xbc80 (size before relaxing)
+ .debug_str     0x001cdbc1     0x1d5e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                             0x1c11e9 (size before relaxing)
+ .debug_str     0x001cf91f      0x320 ./gecko_sdk_4.2.3/platform/emlib/src/em_core.o
+                             0x1b9b42 (size before relaxing)
+ .debug_str     0x001cfc3f     0x13e0 ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
+                             0x1c17bb (size before relaxing)
+ .debug_str     0x001d101f      0x2d7 ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
+                             0x1ba34c (size before relaxing)
+ .debug_str     0x001d12f6      0x408 ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
+                             0x1c0a52 (size before relaxing)
+ .debug_str     0x001d16fe       0x7f ./gecko_sdk_4.2.3/platform/emlib/src/em_rtcc.o
+                             0x1b9b9d (size before relaxing)
+ .debug_str     0x001d177d      0x62b ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
+                             0x1bdf1e (size before relaxing)
+ .debug_str     0x001d1da8     0x2251 ./gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o
+                             0x1caa35 (size before relaxing)
+ .debug_str     0x001d3ff9      0x4d3 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
+                             0x1c0d09 (size before relaxing)
+ .debug_str     0x001d44cc      0x104 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_led.o
+                               0x7985 (size before relaxing)
+ .debug_str     0x001d45d0      0x171 ./gecko_sdk_4.2.3/platform/driver/leddrv/src/sl_simple_led.o
+                             0x1c1026 (size before relaxing)
+ .debug_str     0x001d4741      0x138 ./gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o
+                             0x1b8728 (size before relaxing)
+ .debug_str     0x001d4879       0x52 ./gecko_sdk_4.2.3/platform/common/src/sl_assert.o
+                               0x2e51 (size before relaxing)
+ .debug_str     0x001d48cb       0xcf ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
+                               0x715b (size before relaxing)
+ .debug_str     0x001d499a       0xc8 ./gecko_sdk_4.2.3/platform/common/src/sl_string.o
+                               0x7958 (size before relaxing)
+ .debug_str     0x001d4a62      0x168 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/startup_efm32gg12b.o
+                             0x1b84b0 (size before relaxing)
+ .debug_str     0x001d4bca      0x165 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
+                             0x1b88db (size before relaxing)
+ .debug_str     0x001d4d2f      0x3e3 ./gecko_sdk_4.2.3/hardware/board/src/sl_board_control_gpio.o
+                             0x1bdde0 (size before relaxing)
+ .debug_str     0x001d5112       0x8a ./gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o
+                             0x1c0caa (size before relaxing)
+ .debug_str     0x001d519c       0x23 ./autogen/sl_board_default_init.o
+                               0x78ee (size before relaxing)
+ .debug_str     0x001d51bf       0x3f ./autogen/sl_cli_command_table.o
+                               0xc142 (size before relaxing)
+ .debug_str     0x001d51fe      0x308 ./autogen/sl_cli_instances.o
+                             0x1c4418 (size before relaxing)
+ .debug_str     0x001d5506       0x52 ./autogen/sl_device_init_clocks.o
+                             0x1c0f7a (size before relaxing)
+ .debug_str     0x001d5558      0x1bb ./autogen/sl_event_handler.o
+                             0x1c9902 (size before relaxing)
+ .debug_str     0x001d5713      0x875 ./autogen/sl_iostream_init_usart_instances.o
+                             0x1c69fe (size before relaxing)
+ .debug_str     0x001d5f88      0x84b ./autogen/sl_simple_led_instances.o
+                             0x1be291 (size before relaxing)
+ .debug_str     0x001d67d3      0x2f5 ./autogen/sl_spidrv_init.o
+                             0x1c87d0 (size before relaxing)
+ .debug_str     0x001d6ac8       0x54 ./app.o
+                             0x1c1e1f (size before relaxing)
+ .debug_str     0x001d6b1c      0x2b8 ./cli.o
+                             0x1c2475 (size before relaxing)
+ .debug_str     0x001d6dd4       0x2d ./commands.o
+                             0x1c13ad (size before relaxing)
+ .debug_str     0x001d6e01      0xfbd ./inscryption.o
+                               0x7b5b (size before relaxing)
+ .debug_str     0x001d7dbe       0x44 ./main.o
+                               0x3202 (size before relaxing)
+ .debug_str     0x001d7e02       0x8c ./spi.o
+                             0x1c8b2a (size before relaxing)
+ .debug_str     0x001d7e8e       0xf4 ./autogen/sl_emlib_gpio_simple_init.o
+                             0x1bd1f2 (size before relaxing)
 
 .debug_frame    0x00000000     0x4b7c
  .debug_frame   0x00000000       0x38 ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o

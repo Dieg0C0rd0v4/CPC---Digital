@@ -2,9 +2,9 @@ autogen/sl_cli_instances.o: ../autogen/sl_cli_instances.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  ../autogen/sl_component_catalog.h ../autogen/sl_cli_instances.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_types.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_cli_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
@@ -12,7 +12,7 @@ autogen/sl_cli_instances.o: ../autogen/sl_cli_instances.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_command.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_arguments.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_string.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config_inst.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_cli_config_inst.h \
  ../autogen/sl_iostream_handles.h \
  ../autogen/sl_iostream_init_usart_instances.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h \
@@ -88,14 +88,14 @@ autogen/sl_cli_instances.o: ../autogen/sl_cli_instances.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 ../autogen/sl_component_catalog.h:
 ../autogen/sl_cli_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_types.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_cli_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
@@ -103,7 +103,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_command.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli_arguments.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_string.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_cli_config_inst.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_cli_config_inst.h:
 ../autogen/sl_iostream_handles.h:
 ../autogen/sl_iostream_init_usart_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h:
@@ -179,4 +179,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h:

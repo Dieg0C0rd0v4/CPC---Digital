@@ -4,6 +4,7 @@
 #include "spidrv.h"
 #include "sl_spidrv_instances.h"
 #include "sl_sleeptimer.h"
+
 #include "spi.h"
 ////////////////////////////////////////////////////////////////////////////////////////
 #define handleSPI sl_spidrv_exp_handle

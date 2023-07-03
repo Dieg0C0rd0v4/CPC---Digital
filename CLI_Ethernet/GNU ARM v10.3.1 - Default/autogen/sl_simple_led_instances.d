@@ -77,21 +77,21 @@ autogen/sl_simple_led_instances.o: ../autogen/sl_simple_led_instances.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led0_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led1_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led10_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led11_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led2_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led3_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led4_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led5_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led6_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led7_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led8_config.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led9_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led0_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led1_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led10_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led11_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led2_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led3_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led4_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led5_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led6_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led7_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led8_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led9_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_simple_led.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\driver\leddrv\inc\sl_led.h:
@@ -170,18 +170,18 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led0_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led1_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led10_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led11_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led2_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led3_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led4_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led5_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led6_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led7_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led8_config.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_simple_led_led9_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led0_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led1_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led10_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led11_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led2_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led3_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led4_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led5_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led6_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led7_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led8_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_simple_led_led9_config.h:

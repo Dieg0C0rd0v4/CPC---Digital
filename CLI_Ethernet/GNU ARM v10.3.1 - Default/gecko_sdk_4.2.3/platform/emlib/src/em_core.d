@@ -72,8 +72,8 @@ gecko_sdk_4.2.3/platform/emlib/src/em_core.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b_af_pins.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -147,6 +147,6 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b_af_pins.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:

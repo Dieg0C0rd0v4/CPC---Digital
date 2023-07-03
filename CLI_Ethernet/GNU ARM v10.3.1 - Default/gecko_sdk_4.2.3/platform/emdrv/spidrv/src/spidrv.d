@@ -1,7 +1,7 @@
 gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o: \
  C:/Users/DCordova/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/src/spidrv.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b810f1024gm64.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm4.h \
@@ -76,26 +76,26 @@ gecko_sdk_4.2.3/platform/emdrv/spidrv/src/spidrv.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/spidrv_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/spidrv_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_sleeptimer_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b810f1024gm64.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm4.h:
@@ -170,21 +170,21 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/dmadrv_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/spidrv_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/spidrv_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\CLI_Ethernet\config/sl_sleeptimer_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/sl_sleeptimer_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:
