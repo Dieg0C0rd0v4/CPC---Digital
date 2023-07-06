@@ -4,7 +4,7 @@ gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_board_control_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_board_control_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\em_device.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22c224f512im40.h \
@@ -51,23 +51,23 @@ gecko_sdk_4.2.3/hardware/board/src/sl_board_init.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_prs_signals.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_dma_descriptor.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\driver\mx25_flash_shutdown\inc\sl_mx25_flash_shutdown_usart\sl_mx25_flash_shutdown.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_mx25_flash_shutdown_usart_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_mx25_flash_shutdown_usart_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_board_control_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_board_control_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\em_device.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22c224f512im40.h:
@@ -114,15 +114,15 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_prs_signals.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_dma_descriptor.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\hardware\driver\mx25_flash_shutdown\inc\sl_mx25_flash_shutdown_usart\sl_mx25_flash_shutdown.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_mx25_flash_shutdown_usart_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_mx25_flash_shutdown_usart_config.h:

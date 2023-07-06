@@ -28,9 +28,11 @@ include:
 sdk: {id: gecko_sdk, version: 4.2.3}
 toolchain_settings: []
 component:
-- {id: sl_system}
 - {id: iostream_retarget_stdio}
+- {id: sl_system}
 - {id: brd4182a_b06}
+- instance: [vcom]
+  id: iostream_usart
 - {id: iostream_recommended_stream}
 - {id: EFR32MG22C224F512IM40}
 - {id: device_init}

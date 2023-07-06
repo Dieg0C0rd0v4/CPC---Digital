@@ -234,9 +234,6 @@
 #define TTL Fault Reset_PORT                     gpioPortA
 #define TTL Fault Reset_PIN                      6
 
-#define SPI_Slave_wakeup_PORT                    gpioPortC
-#define SPI_Slave_wakeup_PIN                     4
-
 #define TTL Standby_PORT                         gpioPortD
 #define TTL Standby_PIN                          0
 

@@ -2,7 +2,7 @@ gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o: \
  C:/Users/DCordova/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
@@ -53,10 +53,10 @@ gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -107,4 +107,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/emlib_core_debug_config.h:

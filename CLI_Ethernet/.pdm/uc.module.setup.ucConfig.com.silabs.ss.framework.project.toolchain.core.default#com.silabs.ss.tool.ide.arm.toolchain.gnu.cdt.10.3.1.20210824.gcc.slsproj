@@ -20,7 +20,6 @@
     <file name="dmadrv_config.h" generated="true" linked="false"/>
     <file name="sl_board_control_config.h" generated="true" linked="false"/>
     <file name="sl_cli_config.h" generated="true" linked="false"/>
-    <file name="sl_emlib_gpio_init_start_SPI_config.h" generated="true" linked="false"/>
     <file name="sl_iostream_usart_vcom_config.h" generated="true" linked="false"/>
     <file name="sl_device_init_emu_config.h" generated="true" linked="false"/>
     <file name="spidrv_config.h" generated="true" linked="false"/>

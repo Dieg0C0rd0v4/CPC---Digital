@@ -91,7 +91,8 @@ spi.o: ../spi.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
  C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h \
  C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_spidrv_instances.h \
- ../spi.h
+ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h \
+ ../spi.h ../GPIO.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\em_device.h:
@@ -184,4 +185,6 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmad
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
 C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/dmadrv_config.h:
 C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_spidrv_instances.h:
+c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:
 ../spi.h:
+../GPIO.h:

@@ -260,7 +260,6 @@ void cli_app_init(void)
   attnSet(0);
   status = sl_cli_command_add_command_group(sl_cli_inst_handle, &a_group);
   EFM_ASSERT(status);
-  printf("\r\r CPC Command Line Interface for System <P00000> \r\n-------------------------------------------------------------\r\n");
 }
 ////////////////////////////////////////////////////////////////////////////////////////
 void cli_app_process_action(void)// * Ticking function

@@ -46,10 +46,10 @@ gecko_sdk_4.2.3/platform/common/toolchain/src/sl_memory.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_prs_signals.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_dma_descriptor.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h \
- F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_memory_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_memory_config.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\em_device.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22c224f512im40.h:
@@ -96,7 +96,7 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_prs_signals.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_dma_descriptor.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32mg22\include\efr32mg22_ldmaxbar_defines.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\autogen/sl_component_catalog.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h:
-F:\Diego\ Cordova\CPC\ -\ Digital\SPI_Slave_Testing\config/sl_memory_config.h:
+C:\Users\DCordova\Desktop\CPC---Digital\SPI_Slave_Testing\config/sl_memory_config.h:

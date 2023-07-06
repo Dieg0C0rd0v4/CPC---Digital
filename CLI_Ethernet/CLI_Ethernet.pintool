@@ -21,9 +21,7 @@
     <property object="PA8" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_SENSOR_MICROPHONE%T%sl_board_control_config.h"/>
     <property object="PA8" propertyId="pin.reserve" value="Reserved"/>
     <property object="PB5" propertyId="pin.name" value=""/>
-    <property object="PC4" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_START_SPI%T%sl_emlib_gpio_init_start_SPI_config.h"/>
-    <property object="PC4" propertyId="pin.name" value="SPI_Slave_wakeup"/>
-    <property object="PC4" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC4" propertyId="pin.name" value=""/>
     <property object="PC5" propertyId="pin.name" value=""/>
     <property object="PD0" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED0%T%sl_simple_led_led0_config.h"/>
     <property object="PD0" propertyId="pin.name" value="TTL Standby"/>

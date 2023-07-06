@@ -93,7 +93,8 @@ app.o: ../app.c \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h \
  C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_simple_led_instances.h \
- c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h
+ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h \
+ ../GPIO.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 ../cli.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\cli\inc\sl_cli.h:
@@ -189,3 +190,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.
 C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\config/emlib_core_debug_config.h:
 C:\Users\DCordova\Desktop\CPC---Digital\CLI_Ethernet\autogen/sl_simple_led_instances.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:
+../GPIO.h:

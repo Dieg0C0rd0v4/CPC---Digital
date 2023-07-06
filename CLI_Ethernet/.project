@@ -351,11 +351,6 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emdrv/spidrv/src/spidrv.c</locationURI>
 		</link>
 		<link>
-			<name>gecko_sdk_4.2.3/platform/emlib/init/gpio_simple/sl_emlib_gpio_simple_init.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/emlib/init/gpio_simple/sl_emlib_gpio_simple_init.h</locationURI>
-		</link>
-		<link>
 			<name>gecko_sdk_4.2.3/platform/service/cli/inc/sl_cli.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/cli/inc/sl_cli.h</locationURI>

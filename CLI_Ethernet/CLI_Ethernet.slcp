@@ -28,10 +28,8 @@ include:
 sdk: {id: gecko_sdk, version: 4.2.3}
 toolchain_settings: []
 component:
-- instance: [start_SPI]
-  id: emlib_gpio_simple_init
-- {id: iostream_retarget_stdio}
 - {id: sl_system}
+- {id: iostream_retarget_stdio}
 - instance: [inst]
   id: cli
 - {id: iostream_recommended_stream}

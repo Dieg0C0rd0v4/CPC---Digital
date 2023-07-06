@@ -10,7 +10,6 @@
 #include "sl_device_init_emu.h"
 #include "sl_board_control.h"
 #include "sl_sleeptimer.h"
-#include "sl_emlib_gpio_simple_init.h"
 #include "sl_iostream_stdlib_config.h"
 #include "sl_iostream_init_usart_instances.h"
 #include "sl_simple_led_instances.h"
@@ -33,7 +32,6 @@ void sl_platform_init(void)
 
 void sl_driver_init(void)
 {
-  sl_emlib_gpio_simple_init();
   sl_simple_led_init_instances();
   sl_spidrv_init_instances();
 }

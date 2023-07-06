@@ -11,8 +11,8 @@
 #include "sl_board_control.h"
 #include "sl_sleeptimer.h"
 #include "sl_debug_swo.h"
-#include "sl_iostream_init_eusart_instances.h"
 #include "sl_iostream_stdlib_config.h"
+#include "sl_iostream_init_usart_instances.h"
 #include "sl_spidrv_instances.h"
 #include "sl_iostream_init_instances.h"
 #include "sl_cos.h"
@@ -71,6 +71,6 @@ void sl_internal_app_process_action(void)
 
 void sl_iostream_init_instances(void)
 {
-  sl_iostream_eusart_init_instances();
+  sl_iostream_usart_init_instances();
 }
 

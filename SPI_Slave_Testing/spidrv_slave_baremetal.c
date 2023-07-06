@@ -16,13 +16,12 @@
  ******************************************************************************/
 #include <string.h>
 #include <stdio.h>
+#include <stdbool.h>
 #include "spidrv_slave_baremetal.h"
+#include "sl_sleeptimer.h"
 #include "spidrv.h"
 #include "sl_spidrv_instances.h"
-
-/*******************************************************************************
- *******************************   DEFINES   ***********************************
- ******************************************************************************/
+#include "em_gpio.h"
 
 // use SPI handle for EXP header (configured in project settings)
 #define SPI_HANDLE sl_spidrv_exp_handle
@@ -30,23 +29,12 @@
 // size of transmission and reception buffers
 #define APP_BUFFER_SIZE             16
 
-/*******************************************************************************
- ***************************  LOCAL VARIABLES   ********************************
- ******************************************************************************/
-
 // Flag to signal that transfer is complete
 static volatile bool transfer_complete = false;
-
 // Data counter
 static int counter = 0;
-
 // Transmission and reception buffers
 static char rx_buffer[APP_BUFFER_SIZE];
-static char tx_buffer[APP_BUFFER_SIZE];
-
-/*******************************************************************************
- *********************   LOCAL FUNCTION PROTOTYPES   ***************************
- ******************************************************************************/
 
 // Callback fired when transfer is complete
 void transfer_callback(SPIDRV_HandleData_t *handle,
@@ -63,42 +51,33 @@ void transfer_callback(SPIDRV_HandleData_t *handle,
   }
 }
 
-/*******************************************************************************
- **************************   GLOBAL FUNCTIONS   *******************************
- ******************************************************************************/
+bool spi_start(){
 
-/*******************************************************************************
- * Initialize example.
- ******************************************************************************/
-void spidrv_app_init(void)
-{
-  // stdout is redirected to VCOM in project configuration
-  printf("Welcome to the SPIDRV example application, slave mode\r\n");
+	if (GPIO_PinInGet(gpioPortB, 1)){
+		return true;
+	}
+	else{
+		return false;
+	}
+
+	return false;
 }
 
-/***************************************************************************//**
- * Ticking function
- ******************************************************************************/
+void spidrv_app_init(void){
+  printf("Welcome to the SPIDRV example application, slave mode\r\n");
+  GPIO_PinModeSet(gpioPortB, 1, gpioModeInput, 0);
+}
+
 void spidrv_app_process_action(void)
 {
   Ecode_t ecode;
-
-  // send a string that includes an incrementing counter
-  //sprintf(tx_buffer, "pong %03d", counter);
   counter++;
-  //printf("Sending %s to master...\r\n", tx_buffer);
-
   transfer_complete = false;
-
-  // Non-blocking data transfer to master. When complete, rx buffer
-  // will be filled.
-  //ecode = SPIDRV_STransfer(SPI_HANDLE, tx_buffer, rx_buffer, APP_BUFFER_SIZE, transfer_callback, 0);
-  ecode = SPIDRV_SReceive(SPI_HANDLE, rx_buffer, APP_BUFFER_SIZE,transfer_callback,0);
-  EFM_ASSERT(ecode == ECODE_OK);
-
-  // wait for transfer to complete
-  while (!transfer_complete) ;
-
-  // Data from master is in rx_buffer
-  printf("Got message from master: %s\r\n", rx_buffer);
+  if(spi_start()){
+	  printf("\n Starting receiver\n");
+	  ecode = SPIDRV_SReceive(SPI_HANDLE, rx_buffer, APP_BUFFER_SIZE,transfer_callback,0);
+	  EFM_ASSERT(ecode == ECODE_OK);
+	  while (!transfer_complete) ;
+	  printf("Got message from master: %s\r\n", rx_buffer);
+  }
 }

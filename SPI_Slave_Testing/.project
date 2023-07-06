@@ -146,16 +146,6 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_emu.h</locationURI>
 		</link>
 		<link>
-			<name>gecko_sdk_4.2.3/platform/emlib/inc/em_eusart.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_eusart.h</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.2.3/platform/emlib/inc/em_eusart_compat.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_eusart_compat.h</locationURI>
-		</link>
-		<link>
 			<name>gecko_sdk_4.2.3/platform/emlib/inc/em_gpio.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/inc/em_gpio.h</locationURI>
@@ -234,11 +224,6 @@
 			<name>gecko_sdk_4.2.3/platform/emlib/src/em_emu.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_emu.c</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.2.3/platform/emlib/src/em_eusart.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_eusart.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.2.3/platform/emlib/src/em_gpio.c</name>
@@ -431,11 +416,6 @@
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sl_iostream.h</locationURI>
 		</link>
 		<link>
-			<name>gecko_sdk_4.2.3/platform/service/iostream/inc/sl_iostream_eusart.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sl_iostream_eusart.h</locationURI>
-		</link>
-		<link>
 			<name>gecko_sdk_4.2.3/platform/service/iostream/inc/sl_iostream_stdlib_config.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sl_iostream_stdlib_config.h</locationURI>
@@ -446,6 +426,11 @@
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sl_iostream_uart.h</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.2.3/platform/service/iostream/inc/sl_iostream_usart.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sl_iostream_usart.h</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.2.3/platform/service/iostream/inc/sli_iostream_uart.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/inc/sli_iostream_uart.h</locationURI>
@@ -454,11 +439,6 @@
 			<name>gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/src/sl_iostream.c</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_eusart.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/src/sl_iostream_eusart.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.c</name>
@@ -474,6 +454,11 @@
 			<name>gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/src/sl_iostream_uart.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_usart.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/iostream/src/sl_iostream_usart.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.2.3/platform/service/sleeptimer/inc/sl_sleeptimer.h</name>
