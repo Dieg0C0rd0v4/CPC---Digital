@@ -7,26 +7,26 @@
 //STATE//
 static const sl_cli_command_info_t cmd_stateOPER =SL_CLI_COMMAND(stateOPER, "Change system operation mode", "", { SL_CLI_ARG_END, });
 static const sl_cli_command_info_t cmd_stateSTAN =SL_CLI_COMMAND(stateSTAN, "Change system standby mode", "", { SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_stateGET =SL_CLI_COMMAND(stateGET, "Query system state", "", { SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_stateCW =SL_CLI_COMMAND(stateCW, "Change system to use CW mode ","", {SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_stateCWA =SL_CLI_COMMAND(stateCWA, "Change system to use CW mode ", "", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_stateGET  =SL_CLI_COMMAND(stateGET, "Query system state", "", { SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_stateCW   =SL_CLI_COMMAND(stateCW, "Change system to use CW mode ","", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_stateCWA  =SL_CLI_COMMAND(stateCWA, "Change system to use CW mode ", "", {SL_CLI_ARG_END, });
 //RF//
-static const sl_cli_command_info_t cmd_RFON =SL_CLI_COMMAND(RFON, "Enables RF output ", "", {SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_RFOFF =SL_CLI_COMMAND(RFOFF, "Disables RF output ", "", {SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_RFGET =SL_CLI_COMMAND(RFGET, "Query RF enable status", "", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_RFON      =SL_CLI_COMMAND(RFON, "Enables RF output ", "", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_RFOFF     =SL_CLI_COMMAND(RFOFF, "Disables RF output ", "", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_RFGET     =SL_CLI_COMMAND(RFGET, "Query RF enable status", "", {SL_CLI_ARG_END, });
 //FAULT
-static const sl_cli_command_info_t cmd_faultRES =SL_CLI_COMMAND(faultRES, "Resets faults", "{reset, ?} ", {SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_faultGET =SL_CLI_COMMAND(faultGET, "Query faults", "{reset, ?} ", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_faultRES  =SL_CLI_COMMAND(faultRES, "Resets faults", "{reset, ?} ", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_faultGET  =SL_CLI_COMMAND(faultGET, "Query faults", "{reset, ?} ", {SL_CLI_ARG_END, });
 //ATTENUATION
-static const sl_cli_command_info_t cmd_attnSET =SL_CLI_COMMAND(attnSET, "Set the amplifier attenuation", " {set <0-3000>, ?} ", {SL_CLI_ARG_UINT16, SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_attnGET =SL_CLI_COMMAND(attnGET, "Set amplifier attenuation", " {set <0-3000>, ?} ", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_attnSET   =SL_CLI_COMMAND(attnSET, "Set the amplifier attenuation", " {set <0-3000>, ?} ", {SL_CLI_ARG_UINT16, SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_attnGET   =SL_CLI_COMMAND(attnGET, "Set amplifier attenuation", " {set <0-3000>, ?} ", {SL_CLI_ARG_END, });
 //SYSTEM
-static const sl_cli_command_info_t cmd_systemTEMP =SL_CLI_COMMAND(systemTEMP, "Get Temperature reading (Celcius) ","<1,2>", {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_systemVOLT =SL_CLI_COMMAND(systemVOLT, "Get voltage reading (volts) "," <0>", {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_systemFIRM =SL_CLI_COMMAND(systemFIRM, "Query system firmware version","", {SL_CLI_ARG_END, });
-static const sl_cli_command_info_t cmd_systemIP   =SL_CLI_COMMAND(systemIP, "Change amplifier IP address ","<ip-addr>", {SL_CLI_ARG_STRING, SL_CLI_ARG_END });
+static const sl_cli_command_info_t cmd_systemTEMP=SL_CLI_COMMAND(systemTEMP, "Get Temperature reading (Celcius) ","<1,2>", {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_systemVOLT=SL_CLI_COMMAND(systemVOLT, "Get voltage reading (volts) "," <0>", {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_systemFIRM=SL_CLI_COMMAND(systemFIRM, "Query system firmware version","", {SL_CLI_ARG_END, });
+static const sl_cli_command_info_t cmd_systemIP  =SL_CLI_COMMAND(systemIP, "Change amplifier IP address ","<ip-addr>", {SL_CLI_ARG_STRING, SL_CLI_ARG_END });
 //HIDDEN ADMIN
-static const sl_cli_command_info_t cmd_admin  =SL_CLI_COMMAND(admin, " "," ", {SL_CLI_ARG_STRING, SL_CLI_ARG_END });
+static const sl_cli_command_info_t cmd_admin      =SL_CLI_COMMAND(admin, " "," ", {SL_CLI_ARG_STRING, SL_CLI_ARG_END });
 
 //ARRAY OF COMMANDS {STRING , sl_cli_command_info_t, false/true} inside array "a_table"; This is for later use for creating an command group////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 static sl_cli_command_entry_t a_table[] ={ // Create the array of commands
@@ -85,8 +85,10 @@ static sl_cli_command_group_t a_group ={ // using a_table to create the group
 void initCLI() { //Initialize the CLI
 	bool status;
 	status = sl_cli_command_add_command_group(sl_cli_cli_handle, &a_group);
+
 	EFM_ASSERT(status);
 }
+
 void stateOPER() { // Triggers operation status (output_command)
 	printf("Setting system on OPERATE\r\n");
 	//standby(0);

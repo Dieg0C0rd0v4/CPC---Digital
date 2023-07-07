@@ -1176,7 +1176,7 @@ END GROUP
 LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtend.o
 LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtn.o
 
-.text           0x00000000     0xb80c
+.text           0x00000000     0xb7fc
                 0x00000000                linker_vectors_begin = .
  *(.vectors)
  .vectors       0x00000000      0x130 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/startup_efm32gg12b.o
@@ -2182,305 +2182,303 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.1
  *(.dtors)
  *(.rodata*)
  .rodata.app_init.str1.1
-                0x0000a4b0       0x75 ./app.o
+                0x0000a4b0       0x6b ./app.o
  .rodata.stateOPER.str1.1
-                0x0000a525       0x1c ./cli.o
+                0x0000a51b       0x1c ./cli.o
  .rodata.stateSTAN.str1.1
-                0x0000a541       0x1c ./cli.o
+                0x0000a537       0x1c ./cli.o
  .rodata.stateGET.str1.1
-                0x0000a55d       0x22 ./cli.o
+                0x0000a553       0x22 ./cli.o
  .rodata.stateCW.str1.1
-                0x0000a57f        0xd ./cli.o
+                0x0000a575        0xd ./cli.o
  .rodata.stateCWA.str1.1
-                0x0000a58c       0x11 ./cli.o
+                0x0000a582       0x11 ./cli.o
  .rodata.RFON.str1.1
-                0x0000a59d        0xf ./cli.o
+                0x0000a593        0xf ./cli.o
  .rodata.RFOFF.str1.1
-                0x0000a5ac       0x10 ./cli.o
+                0x0000a5a2       0x10 ./cli.o
  .rodata.RFGET.str1.1
-                0x0000a5bc        0xf ./cli.o
+                0x0000a5b2        0xf ./cli.o
  .rodata.faultGET.str1.1
-                0x0000a5cb       0x1d ./cli.o
+                0x0000a5c1       0x1d ./cli.o
  .rodata.attnGET.str1.1
-                0x0000a5e8       0x25 ./cli.o
+                0x0000a5de       0x25 ./cli.o
  .rodata.systemTEMP.str1.1
-                0x0000a60d       0x5c ./cli.o
+                0x0000a603       0x5c ./cli.o
  .rodata.systemVOLT.str1.1
-                0x0000a669       0x23 ./cli.o
+                0x0000a65f       0x23 ./cli.o
  .rodata.systemFIRM.str1.1
-                0x0000a68c       0x1c ./cli.o
+                0x0000a682       0x1c ./cli.o
  .rodata.systemIP.str1.1
-                0x0000a6a8       0x15 ./cli.o
+                0x0000a69e       0x15 ./cli.o
  .rodata.faultRES.str1.1
-                0x0000a6bd       0x2b ./cli.o
+                0x0000a6b3       0x2b ./cli.o
  .rodata.attnSET.str1.1
-                0x0000a6e8       0x30 ./cli.o
+                0x0000a6de       0x30 ./cli.o
  .rodata.admin.str1.1
-                0x0000a718       0x35 ./cli.o
+                0x0000a70e       0x35 ./cli.o
  .rodata.initCLI.str1.1
-                0x0000a74d        0x9 ./cli.o
+                0x0000a743        0x9 ./cli.o
  .rodata.str1.1
-                0x0000a756      0x390 ./cli.o
+                0x0000a74c      0x390 ./cli.o
                                 0x393 (size before relaxing)
- *fill*         0x0000aae6        0x2 
  .rodata.cmd_RFGET
-                0x0000aae8        0xd ./cli.o
- *fill*         0x0000aaf5        0x3 
+                0x0000aadc        0xd ./cli.o
+ *fill*         0x0000aae9        0x3 
  .rodata.cmd_RFOFF
-                0x0000aaf8        0xd ./cli.o
- *fill*         0x0000ab05        0x3 
+                0x0000aaec        0xd ./cli.o
+ *fill*         0x0000aaf9        0x3 
  .rodata.cmd_RFON
-                0x0000ab08        0xd ./cli.o
- *fill*         0x0000ab15        0x3 
+                0x0000aafc        0xd ./cli.o
+ *fill*         0x0000ab09        0x3 
  .rodata.cmd_admin
-                0x0000ab18        0xe ./cli.o
- *fill*         0x0000ab26        0x2 
+                0x0000ab0c        0xe ./cli.o
+ *fill*         0x0000ab1a        0x2 
  .rodata.cmd_attnGET
-                0x0000ab28        0xd ./cli.o
- *fill*         0x0000ab35        0x3 
+                0x0000ab1c        0xd ./cli.o
+ *fill*         0x0000ab29        0x3 
  .rodata.cmd_attnSET
-                0x0000ab38        0xe ./cli.o
- *fill*         0x0000ab46        0x2 
+                0x0000ab2c        0xe ./cli.o
+ *fill*         0x0000ab3a        0x2 
  .rodata.cmd_faultGET
-                0x0000ab48        0xd ./cli.o
- *fill*         0x0000ab55        0x3 
+                0x0000ab3c        0xd ./cli.o
+ *fill*         0x0000ab49        0x3 
  .rodata.cmd_faultRES
-                0x0000ab58        0xd ./cli.o
- *fill*         0x0000ab65        0x3 
+                0x0000ab4c        0xd ./cli.o
+ *fill*         0x0000ab59        0x3 
  .rodata.cmd_stateCW
-                0x0000ab68        0xd ./cli.o
- *fill*         0x0000ab75        0x3 
+                0x0000ab5c        0xd ./cli.o
+ *fill*         0x0000ab69        0x3 
  .rodata.cmd_stateCWA
-                0x0000ab78        0xd ./cli.o
- *fill*         0x0000ab85        0x3 
+                0x0000ab6c        0xd ./cli.o
+ *fill*         0x0000ab79        0x3 
  .rodata.cmd_stateGET
-                0x0000ab88        0xd ./cli.o
- *fill*         0x0000ab95        0x3 
+                0x0000ab7c        0xd ./cli.o
+ *fill*         0x0000ab89        0x3 
  .rodata.cmd_stateOPER
-                0x0000ab98        0xd ./cli.o
- *fill*         0x0000aba5        0x3 
+                0x0000ab8c        0xd ./cli.o
+ *fill*         0x0000ab99        0x3 
  .rodata.cmd_stateSTAN
-                0x0000aba8        0xd ./cli.o
- *fill*         0x0000abb5        0x3 
+                0x0000ab9c        0xd ./cli.o
+ *fill*         0x0000aba9        0x3 
  .rodata.cmd_systemFIRM
-                0x0000abb8        0xd ./cli.o
- *fill*         0x0000abc5        0x3 
+                0x0000abac        0xd ./cli.o
+ *fill*         0x0000abb9        0x3 
  .rodata.cmd_systemIP
-                0x0000abc8        0xe ./cli.o
- *fill*         0x0000abd6        0x2 
+                0x0000abbc        0xe ./cli.o
+ *fill*         0x0000abca        0x2 
  .rodata.cmd_systemTEMP
-                0x0000abd8        0xe ./cli.o
- *fill*         0x0000abe6        0x2 
+                0x0000abcc        0xe ./cli.o
+ *fill*         0x0000abda        0x2 
  .rodata.cmd_systemVOLT
-                0x0000abe8        0xe ./cli.o
+                0x0000abdc        0xe ./cli.o
  .rodata.sl_cli_instances_init.str1.1
-                0x0000abf6       0x11 ./autogen/sl_cli_instances.o
+                0x0000abea       0x11 ./autogen/sl_cli_instances.o
  .rodata.sl_iostream_usart_init_vcom.str1.1
-                0x0000ac07       0x2e ./autogen/sl_iostream_init_usart_instances.o
- *fill*         0x0000ac35        0x3 
- .rodata        0x0000ac38       0x1c ./autogen/sl_iostream_init_usart_instances.o
+                0x0000abfb       0x2e ./autogen/sl_iostream_init_usart_instances.o
+ *fill*         0x0000ac29        0x3 
+ .rodata        0x0000ac2c       0x1c ./autogen/sl_iostream_init_usart_instances.o
  .rodata.CSWTCH.3
-                0x0000ac54       0x20 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
+                0x0000ac48       0x20 ./gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Source/system_efm32gg12b.o
  .rodata.sl_slist_push.str1.1
-                0x0000ac74       0x51 ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
- .rodata        0x0000acc5        0x4 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
+                0x0000ac68       0x51 ./gecko_sdk_4.2.3/platform/common/src/sl_slist.o
+ .rodata        0x0000acb9        0x4 ./gecko_sdk_4.2.3/platform/emdrv/dmadrv/src/dmadrv.o
  .rodata.flashWaitStateControl.str1.1
-                0x0000acc9       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000acbd       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.SL_Log2ToDiv.str1.1
-                0x0000ad17       0x52 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000ad0b       0x52 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CMU_PrescToLog2.str1.1
-                0x0000ad69       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000ad5d       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.107
-                0x0000adb7        0x3 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adab        0x3 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.61
-                0x0000adba        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adae        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.62
-                0x0000adc0        0x4 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adb4        0x4 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.63
-                0x0000adc4        0x4 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adb8        0x4 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.66
-                0x0000adc8        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adbc        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.67
-                0x0000adce        0x3 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adc2        0x3 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.95
-                0x0000add1        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adc5        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.96
-                0x0000add7        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
- *fill*         0x0000addd        0x1 
+                0x0000adcb        0x6 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+ *fill*         0x0000add1        0x1 
  .rodata.CSWTCH.97
-                0x0000adde        0xc ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000add2        0xc ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.CSWTCH.98
-                0x0000adea        0xc ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
- *fill*         0x0000adf6        0x2 
+                0x0000adde        0xc ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+ *fill*         0x0000adea        0x2 
  .rodata.flashWsTable
-                0x0000adf8       0x38 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
+                0x0000adec       0x38 ./gecko_sdk_4.2.3/platform/emlib/src/em_cmu.o
  .rodata.lpGetDevinfoVrefLowHigh.str1.1
-                0x0000ae30       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
+                0x0000ae24       0x4e ./gecko_sdk_4.2.3/platform/emlib/src/em_emu.o
  .rodata.GPIO_PinOutSet.str1.1
-                0x0000ae7e       0x4f ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
+                0x0000ae72       0x4f ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
  .rodata.GPIO_DbgLocationSet.str1.1
-                0x0000aecd       0x4f ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
+                0x0000aec1       0x4f ./gecko_sdk_4.2.3/platform/emlib/src/em_gpio.o
  .rodata.LDMA_EnableChannelRequest.str1.1
-                0x0000af1c       0x9d ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
+                0x0000af10       0x9d ./gecko_sdk_4.2.3/platform/emlib/src/em_ldma.o
  .rodata.USART_BaudrateAsyncSet.str1.1
-                0x0000afb9       0x50 ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
+                0x0000afad       0x50 ./gecko_sdk_4.2.3/platform/emlib/src/em_usart.o
  .rodata.sl_cli_clear.str1.1
-                0x0000b009        0x1 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                0x0000affd        0x1 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
  .rodata.sl_cli_handle_input.str1.1
-                0x0000b009        0xe ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                0x0000affd        0xe ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
                                  0x12 (size before relaxing)
  .rodata.sli_cli_tick.str1.1
-                0x0000b017        0xe ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                0x0000b00b        0xe ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
                                   0x3 (size before relaxing)
  .rodata.str1.1
-                0x0000b017       0x50 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                0x0000b00b       0x50 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
                                  0x52 (size before relaxing)
- *fill*         0x0000b067        0x1 
+ *fill*         0x0000b05b        0x1 
  .rodata.CSWTCH.4
-                0x0000b068       0xb8 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
+                0x0000b05c       0xb8 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli.o
  .rodata.print_and_pad.str1.1
-                0x0000b120        0x2 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+                0x0000b114        0x2 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
  .rodata.cmd_help_command.str1.1
-                0x0000b120       0x76 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+                0x0000b114       0x76 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
                                  0xa7 (size before relaxing)
  .rodata.sl_cli_command_find_matches.str1.1
-                0x0000b196        0x5 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+                0x0000b18a        0x5 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
  .rodata.sl_cli_command_find.str1.1
-                0x0000b19b        0x5 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
+                0x0000b18f        0x5 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_command.o
  .rodata.sl_cli_input_autocomplete.str1.1
-                0x0000b1a0        0x9 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
+                0x0000b194        0x9 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
                                   0xa (size before relaxing)
  .rodata.sl_cli_input_char.str1.1
-                0x0000b1a9        0x9 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
- .rodata        0x0000b1b2       0x10 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
- .rodata        0x0000b1c2        0xc ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
- .rodata        0x0000b1ce        0x4 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
+                0x0000b19d        0x9 ./gecko_sdk_4.2.3/platform/service/cli/src/sl_cli_input.o
+ .rodata        0x0000b1a6       0x10 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_dcdc_s1.o
+ .rodata        0x0000b1b6        0xc ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_hfxo_s1.o
+ .rodata        0x0000b1c2        0x4 ./gecko_sdk_4.2.3/platform/service/device_init/src/sl_device_init_lfxo_s1.o
  .rodata._write.str1.1
-                0x0000b1d2       0x6d ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000b1c6       0x6d ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_retarget_stdio.o
  .rodata.get_write_ptr.str1.1
-                0x0000b23f       0x63 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
+                0x0000b233       0x63 ./gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream_uart.o
  .rodata.sl_udelay_wait.str1.1
-                0x0000b2a2       0x5a ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o
+                0x0000b296       0x5a ./gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay.o
  .rodata._ctype_
-                0x0000b2fc      0x101 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-ctype_.o)
-                0x0000b2fc                _ctype_
- *fill*         0x0000b3fd        0x3 
+                0x0000b2f0      0x101 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-ctype_.o)
+                0x0000b2f0                _ctype_
+ *fill*         0x0000b3f1        0x3 
  .rodata._global_impure_ptr
-                0x0000b400        0x4 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-impure.o)
-                0x0000b400                _global_impure_ptr
+                0x0000b3f4        0x4 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-impure.o)
+                0x0000b3f4                _global_impure_ptr
  .rodata._printf_float.str1.1
-                0x0000b404       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000b3f8       0x10 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0000b414       0x22 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000b408       0x22 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._scanf_float.str1.1
-                0x0000b436        0x5 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
+                0x0000b42a        0x5 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
                                   0x6 (size before relaxing)
  .rodata._strtod_l.str1.1
-                0x0000b43b        0x5 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
+                0x0000b42f        0x5 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
                                   0xd (size before relaxing)
- *fill*         0x0000b43b        0x1 
- .rodata.fpi.1  0x0000b43c       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
+ *fill*         0x0000b42f        0x1 
+ .rodata.fpi.1  0x0000b430       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
  .rodata.fpinan.0
-                0x0000b450       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
- *fill*         0x0000b464        0x4 
+                0x0000b444       0x14 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
  .rodata.tinytens
-                0x0000b468       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
+                0x0000b458       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-strtod.o)
  .rodata._dtoa_r.str1.1
-                0x0000b490       0xb3 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-dtoa.o)
+                0x0000b480       0xb3 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-dtoa.o)
                                  0xb5 (size before relaxing)
- *fill*         0x0000b543        0x1 
+ *fill*         0x0000b533        0x1 
  .rodata.__sf_fake_stderr
-                0x0000b544       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0000b544                __sf_fake_stderr
+                0x0000b534       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0000b534                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0000b564       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0000b564                __sf_fake_stdin
+                0x0000b554       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0000b554                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000b584       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0000b584                __sf_fake_stdout
+                0x0000b574       0x20 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0000b574                __sf_fake_stdout
  .rodata.__gethex.str1.1
-                0x0000b5a4       0x86 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x0000b594       0x86 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
                                  0x97 (size before relaxing)
  .rodata.str1.1
-                0x0000b62a       0x86 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-lnumeric.o)
+                0x0000b61a       0x86 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-lnumeric.o)
                                   0x3 (size before relaxing)
- *fill*         0x0000b62a        0x2 
+ *fill*         0x0000b61a        0x2 
  .rodata._C_numeric_locale
-                0x0000b62c        0xc c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-lnumeric.o)
-                0x0000b62c                _C_numeric_locale
+                0x0000b61c        0xc c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-lnumeric.o)
+                0x0000b61c                _C_numeric_locale
  .rodata._setlocale_r.str1.1
-                0x0000b638        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-locale.o)
+                0x0000b628        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x0000b640        0x2 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-locale.o)
+                0x0000b630        0x2 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-locale.o)
  .rodata._Balloc.str1.1
-                0x0000b640       0x7f c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0000b630       0x7f c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
                                  0x96 (size before relaxing)
  .rodata.__multadd.str1.1
-                0x0000b6bf       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
- *fill*         0x0000b6bf        0x1 
+                0x0000b6af       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
+ *fill*         0x0000b6af        0x1 
  .rodata.__mprec_bigtens
-                0x0000b6c0       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
-                0x0000b6c0                __mprec_bigtens
+                0x0000b6b0       0x28 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0000b6b0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000b6e8       0xc8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
-                0x0000b6e8                __mprec_tens
- .rodata.p05.0  0x0000b7b0        0xc c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0000b6d8       0xc8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0000b6d8                __mprec_tens
+ .rodata.p05.0  0x0000b7a0        0xc c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x0000b7bc       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000b7ac       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x0000b7cd       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000b7bd       0x11 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata.__assert_func.str1.1
-                0x0000b7cd       0x3c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-assert.o)
+                0x0000b7bd       0x3c c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-assert.o)
                                  0x3d (size before relaxing)
  *(.eh_frame*)
- *fill*         0x0000b809        0x3 
- .eh_frame      0x0000b80c        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ *fill*         0x0000b7f9        0x3 
+ .eh_frame      0x0000b7fc        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.glue_7         0x0000b80c        0x0
- .glue_7        0x0000b80c        0x0 linker stubs
+.glue_7         0x0000b7fc        0x0
+ .glue_7        0x0000b7fc        0x0 linker stubs
 
-.glue_7t        0x0000b80c        0x0
- .glue_7t       0x0000b80c        0x0 linker stubs
+.glue_7t        0x0000b7fc        0x0
+ .glue_7t       0x0000b7fc        0x0 linker stubs
 
-.vfp11_veneer   0x0000b80c        0x0
- .vfp11_veneer  0x0000b80c        0x0 linker stubs
+.vfp11_veneer   0x0000b7fc        0x0
+ .vfp11_veneer  0x0000b7fc        0x0 linker stubs
 
-.v4_bx          0x0000b80c        0x0
- .v4_bx         0x0000b80c        0x0 linker stubs
+.v4_bx          0x0000b7fc        0x0
+ .v4_bx         0x0000b7fc        0x0 linker stubs
 
-.iplt           0x0000b80c        0x0
- .iplt          0x0000b80c        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.iplt           0x0000b7fc        0x0
+ .iplt          0x0000b7fc        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000b80c                __exidx_start = .
+                0x0000b7fc                __exidx_start = .
 
-.ARM.exidx      0x0000b80c        0x8
+.ARM.exidx      0x0000b7fc        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000b80c        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
+ .ARM.exidx     0x0000b7fc        0x8 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x0000b814        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000b804        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x0000b814                __exidx_end = .
+                0x0000b804                __exidx_end = .
 
-.rel.dyn        0x0000b814        0x0
- .rel.iplt      0x0000b814        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.rel.dyn        0x0000b804        0x0
+ .rel.iplt      0x0000b804        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.copy.table     0x0000b814        0xc
-                0x0000b814                . = ALIGN (0x4)
-                0x0000b814                __copy_table_start__ = .
-                0x0000b814        0x4 LONG 0xb820 __etext
-                0x0000b818        0x4 LONG 0x20001000 __data_start__
-                0x0000b81c        0x4 LONG 0x109 ((__data_end__ - __data_start__) / 0x4)
-                0x0000b820                __copy_table_end__ = .
+.copy.table     0x0000b804        0xc
+                0x0000b804                . = ALIGN (0x4)
+                0x0000b804                __copy_table_start__ = .
+                0x0000b804        0x4 LONG 0xb810 __etext
+                0x0000b808        0x4 LONG 0x20001000 __data_start__
+                0x0000b80c        0x4 LONG 0x109 ((__data_end__ - __data_start__) / 0x4)
+                0x0000b810                __copy_table_end__ = .
 
-.zero.table     0x0000b820        0x0
-                0x0000b820                . = ALIGN (0x4)
-                0x0000b820                __zero_table_start__ = .
-                0x0000b820                __zero_table_end__ = .
-                0x0000b820                __etext = .
+.zero.table     0x0000b810        0x0
+                0x0000b810                . = ALIGN (0x4)
+                0x0000b810                __zero_table_start__ = .
+                0x0000b810                __zero_table_end__ = .
+                0x0000b810                __etext = .
                 0x20000000                . = ORIGIN (RAM)
 
 .stack          0x20000000     0x1000
@@ -2494,7 +2492,7 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.1
 .noinit
  *(.noinit*)
 
-.data           0x20001000      0x424 load address 0x0000b820
+.data           0x20001000      0x424 load address 0x0000b810
                 0x20001000                . = ALIGN (0x4)
                 0x20001000                __data_start__ = .
  *(vtable)
@@ -2558,10 +2556,10 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.1
                 0x20001424                . = ALIGN (0x4)
                 0x20001424                __data_end__ = .
 
-.igot.plt       0x20001424        0x0 load address 0x0000bc44
+.igot.plt       0x20001424        0x0 load address 0x0000bc34
  .igot.plt      0x20001424        0x0 c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.bss            0x20001424      0x5c4 load address 0x0000bc44
+.bss            0x20001424      0x5c4 load address 0x0000bc34
                 0x20001424                . = ALIGN (0x4)
                 0x20001424                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(.bss*))
@@ -2634,10 +2632,10 @@ LOAD c:/siliconlabs/simplicitystudio/v5/developer/toolchains/gnu_arm/10.3_2021.1
                 0x00100000                __main_flash_end__ = 0x100000
 
 .internal_storage
-                0x0000b820        0x0
+                0x0000b810        0x0
  *(.internal_storage*)
 
-.nvm            0x0000b820        0x0
+.nvm            0x0000b810        0x0
  *(.simee*)
                 0x00100000                linker_nvm_end = __main_flash_end__
                 0x00100000                linker_nvm_begin = (linker_nvm_end - SIZEOF (.nvm))
