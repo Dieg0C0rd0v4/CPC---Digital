@@ -249,9 +249,21 @@
         </folder>
       </folder>
     </folder>
+    <folder name="util">
+      <folder name="third_party">
+        <folder name="printf">
+          <folder name="src">
+            <file name="iostream_printf.c" uri="studio:/sdk/util/third_party/printf/src/iostream_printf.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="iostream_printf.h" uri="studio:/sdk/util/third_party/printf/inc/iostream_printf.h"/>
+          </folder>
+          <file name="printf.c" uri="studio:/sdk/util/third_party/printf/printf.c"/>
+          <file name="printf.h" uri="studio:/sdk/util/third_party/printf/printf.h"/>
+        </folder>
+      </folder>
+    </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
-  <file name="main.c" linked="false" uri="studio:/project/main.c"/>
   <file name="app.h" linked="false" uri="studio:/project/app.h"/>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/sdk/platform/Device/SiliconLabs/EFM32GG12B/Include"/>
@@ -265,6 +277,8 @@
   <includePath uri="studio:/sdk/platform/emdrv/common/inc"/>
   <includePath uri="studio:/sdk/platform/emlib/inc"/>
   <includePath uri="studio:/sdk/platform/service/iostream/inc"/>
+  <includePath uri="studio:/sdk/util/third_party/printf"/>
+  <includePath uri="studio:/sdk/util/third_party/printf/inc"/>
   <includePath uri="studio:/sdk/platform/common/toolchain/inc"/>
   <includePath uri="studio:/sdk/platform/service/system/inc"/>
   <includePath uri="studio:/sdk/platform/service/udelay/inc"/>
@@ -347,20 +361,24 @@
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.map" value="true"/>
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.map" value="true"/>
   <toolOption toolId="studio.ide.project" optionId="device_opn" value="efm32gg12b810f1024gm64"/>
-  <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
-    <toolListOption value="-Wl,--gc-sections"/>
-  </toolOption>
   <toolOption toolId="makefile.arm.gcc.compiler" optionId="misc">
+    <toolListOption value="-fno-builtin-printf"/>
+    <toolListOption value="-fno-builtin-sprintf"/>
     <toolListOption value="--specs=nano.specs"/>
     <toolListOption value="-g"/>
   </toolOption>
-  <toolOption toolId="makefile.host.gcc.compiler" optionId="misc">
-    <toolListOption value="--specs=nano.specs"/>
-  </toolOption>
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.gnu.c.compiler.option.misc.otherlist">
+    <toolListOption value="-fno-builtin-printf"/>
+    <toolListOption value="-fno-builtin-sprintf"/>
     <toolListOption value="--specs=nano.specs"/>
     <toolListOption value="-c"/>
     <toolListOption value="-fmessage-length=0"/>
+  </toolOption>
+  <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
+    <toolListOption value="-Wl,--gc-sections"/>
+  </toolOption>
+  <toolOption toolId="makefile.host.gcc.compiler" optionId="misc">
+    <toolListOption value="--specs=nano.specs"/>
   </toolOption>
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.gnu.cpp.compiler.option.misc.otherlist">
     <toolListOption value="--specs=nano.specs"/>

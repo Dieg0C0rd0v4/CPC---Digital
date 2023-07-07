@@ -20,6 +20,7 @@
     <property object="PORTIO" propertyId="portio.usart0.location.rts" value="4"/>
     <property object="PORTIO" propertyId="portio.usart0.location.rx" value="1"/>
     <property object="PORTIO" propertyId="portio.usart0.location.tx" value="1"/>
+    <property object="UART0" propertyId="ABPeripheral.included" value="true"/>
     <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_VCOM%T%sl_iostream_usart_vcom_config.h"/>
     <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
   </mode>

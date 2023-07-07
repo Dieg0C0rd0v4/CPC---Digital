@@ -28,8 +28,8 @@
  ******************************************************************************/
  MEMORY
  {
-   FLASH   (rx)  : ORIGIN = 0x0, LENGTH = 0x100000
-   RAM     (rwx) : ORIGIN = 0x20000000, LENGTH = 0x30000
+   FLASH   (rx)  : ORIGIN = 0x0, LENGTH = 0x0
+   RAM     (rwx) : ORIGIN = 0x0, LENGTH = 0x0
  }
 
 ENTRY(Reset_Handler)
@@ -193,8 +193,8 @@ SECTIONS
   } > RAM
 
   __heap_size = __HeapLimit - __HeapBase;
-  __ram_end__ = 0x20000000 + 0x30000;
-  __main_flash_end__ = 0x0 + 0x100000;
+  __ram_end__ = 0x0 + 0x0;
+  __main_flash_end__ = 0x0 + 0x0;
 
    /* This is where we handle flash storage blocks. We use dummy sections for finding the configured
    * block sizes and then "place" them at the end of flash when the size is known. */

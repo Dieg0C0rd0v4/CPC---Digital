@@ -23,6 +23,7 @@ include:
 sdk: {id: gecko_sdk, version: 4.2.3}
 toolchain_settings: []
 component:
+- {id: printf}
 - {id: brd2207a}
 - {id: sl_system}
 - {id: iostream_retarget_stdio}
@@ -37,5 +38,10 @@ component:
 - {id: iostream_usart_core}
 define:
 - {name: DEBUG_EFM}
+template_contribution:
+- {name: memory_ram_start, priority: 0, value: 0}
+- {name: memory_ram_size, priority: 0, value: 0}
+- {name: memory_flash_start, priority: 0, value: 0}
+- {name: memory_flash_size, priority: 0, value: 0}
 ui_hints: {}
 

@@ -11,6 +11,7 @@
 		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="sl_iostream_set_default"/>
 			<item value="sl_emlib_gpio_init_start_SPI_config"/>
 			<item value="sl_emlib_gpio_simple_init"/>
 			<item value="PC4"/>
@@ -28,6 +29,7 @@
 		<item key="updateReferences" value="true"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
+		<item key="askReindex.detail" value="0"/>
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.includebrowser.IBViewPart">
 		<item key="inactiveFilter" value="false"/>

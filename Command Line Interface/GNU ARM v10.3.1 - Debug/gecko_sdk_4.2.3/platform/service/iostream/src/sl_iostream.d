@@ -76,7 +76,8 @@ gecko_sdk_4.2.3/platform/service/iostream/src/sl_iostream.o: \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg12b\include\efm32gg12b_af_pins.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\DCordova\Desktop\CPC---Digital\Command\ Line\ Interface\config/emlib_core_debug_config.h
+ C:\Users\DCordova\Desktop\CPC---Digital\Command\ Line\ Interface\config/emlib_core_debug_config.h \
+ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\util\third_party\printf\printf.h
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
 C:\Users\DCordova\Desktop\CPC---Digital\Command\ Line\ Interface\autogen/sl_component_catalog.h:
@@ -154,3 +155,4 @@ c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\ef
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 C:\Users\DCordova\Desktop\CPC---Digital\Command\ Line\ Interface\config/emlib_core_debug_config.h:
+c:\users\dcordova\simplicitystudio\sdks\gecko_sdk\util\third_party\printf\printf.h:

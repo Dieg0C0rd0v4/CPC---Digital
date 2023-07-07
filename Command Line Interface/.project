@@ -226,6 +226,16 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_usart.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.2.3/util/third_party/printf/printf.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/util/third_party/printf/printf.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.2.3/util/third_party/printf/printf.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/util/third_party/printf/printf.h</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.2.3/platform/CMSIS/Core/Include/cmsis_compiler.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/CMSIS/Core/Include/cmsis_compiler.h</locationURI>
@@ -504,6 +514,16 @@
 			<name>gecko_sdk_4.2.3/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.2.3/util/third_party/printf/inc/iostream_printf.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/util/third_party/printf/inc/iostream_printf.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.2.3/util/third_party/printf/src/iostream_printf.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/util/third_party/printf/src/iostream_printf.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.2.3/platform/Device/SiliconLabs/EFM32GG12B/Include/efm32gg12b810f1024gm64.h</name>
