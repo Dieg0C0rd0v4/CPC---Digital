@@ -18,4 +18,6 @@
 
 
 void decodeAttenuation(unsigned int code);
+void decodeTemperature(unsigned int code);
+void decodeVoltage(unsigned int code);
 #endif /* DECODER_H_ */

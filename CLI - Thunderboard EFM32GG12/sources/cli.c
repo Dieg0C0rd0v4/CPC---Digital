@@ -209,7 +209,7 @@ void systemVOLT(sl_cli_command_arg_t *arguments) { //Check for system voltage <S
 	ch = sl_cli_get_argument_uint8(arguments, 0); // get channel
 	if (ch == 0) {
 		printf("Receiving voltage from Driver\r\n");
-		send(0x0006);
+		sendData(0x0006);
 		decodeVoltage(recieveData());
 		return;
 	} else {
