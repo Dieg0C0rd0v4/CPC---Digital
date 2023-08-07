@@ -11,6 +11,8 @@
 		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="Port"/>
+			<item value="GPIOPortI"/>
 			<item value="vcom"/>
 			<item value="sl_iostream_set_default"/>
 			<item value="sl_emlib_gpio_init_start_SPI_config"/>

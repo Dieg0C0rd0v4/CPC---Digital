@@ -1,21 +1,33 @@
 #ifndef GPIO_H_
 #define GPIO_H_
 #include "em_gpio.h"
+/// Configuration for the family: EFM32GGXXXXX ///
 
+//Port Definitions
+#define PORT_A gpioPortA
+#define PORT_B gpioPortB
+#define PORT_C gpioPortC
+#define PORT_D gpioPortD
+#define PORT_E gpioPortE
+#define PORT_F gpioPortF
+#define PORT_G gpioPortG
+#define PORT_H gpioPortH
+#define PORT_I gpioPortI
 
-#define PA gpioPortA
-#define PB gpioPortB
-#define PC gpioPortC
-#define PD gpioPortD
-#define PE gpioPortE
-#define PF gpioPortF
+//Input/Output Modes
+#define PUSH_PULL gpioModePushPull
+#define INPUT gpioModeInput
 
+//GPIO current output (mA)
 
-#define push_pull gpioModePushPull
-#define inputmode gpioModeInput
 //#define weak gpioDriveStrengthWeakAlternateWeak
 //#define strong gpioDriveStrengthStrongAlternateStrong
+#define WEAL_WEAK      gpioDriveMode// 6mA
+#define WEAK_STRONG    gpioDriveModeLowest     // 0.5mA
+#define STRONG_WEAK    gpioDriveModeHigh		   // 20mA
+#define STRONG_STRONG  gpioDriveModeLow		   // 2mA
 
+//Global Functions
 void gpioInit(void);
 void setDefaultPortStrenght(void);
 void outputON(GPIO_Port_TypeDef port, int pin);

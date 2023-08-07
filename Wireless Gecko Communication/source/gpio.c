@@ -1,20 +1,14 @@
 #include "gpio.h"
-/*
-#define PA gpioPortA
-#define PB gpioPortB
-#define PC gpioPortC
-#define PD gpioPortD
-#define PE gpioPortE
-#define PF gpioPortF
-*/
+
+
 void gpioInit(){
 	setDefaultPortStrenght();
 }
 
 void setDefaultPortStrenght(){
-	//GPIO_DriveStrengthSet(PA, weak); // reduce for SPI pins
+	//GPIO_DriveStrengthSet(PA, weak);
 	//GPIO_DriveStrengthSet(pB,weak);
-	//GPIO_DriveStrengthSet(PC, weak); //reduce for wake_up SPI pin to the other micro
+	//GPIO_DriveStrengthSet(PC, weak);
 	//GPIO_DriveStrengthSet(pD,weak);
 	//GPIO_DriveStrengthSet(pE,weak);
 	//GPIO_DriveStrengthSet(pF,weak);

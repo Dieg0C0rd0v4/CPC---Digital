@@ -35,7 +35,7 @@ static const sl_cli_command_info_t cmd_systemIP  =SL_CLI_COMMAND(systemIP, "Chan
 //HIDDEN ADMIN
 static const sl_cli_command_info_t cmd_admin      =SL_CLI_COMMAND(admin, " "," ", {SL_CLI_ARG_STRING, SL_CLI_ARG_END });
 
-//ARRAY OF COMMANDS {STRING , sl_cli_command_info_t, false/true} inside array "a_table"; This is for later use for creating an command group////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ARRAY OF COMMANDS {STRING , sl_cli_command_info_t, false/true} inside array "a_table"; This is for later use for creating an command group//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 static sl_cli_command_entry_t a_table[] ={ // Create the array of commands
   { ":STATe:OPERate", &cmd_stateOPER, false },
   { ":STATe:OPER", &cmd_stateOPER, true },
@@ -140,9 +140,16 @@ void RFOFF() { //Triggers RF off on system (output command)
 }
 
 void RFGET() { // Gets the current status of RF in the Microchip /system  <SPI use>
-	char rf[] = "ON , OFF";
-	printf("%s \r\n", rf);
-	return;
+	sendData(0x0007);
+	if (recieveData() == 1){
+		printf("RF ON");
+	}
+	else if (recieveData() == 0){
+		printf("RF OFF");
+	}
+	else {
+		printf("comm error");
+	}
 }
 
 void faultRES() { //triggers for 3 seconds the fault_reset commandr
@@ -155,13 +162,9 @@ void faultRES() { //triggers for 3 seconds the fault_reset commandr
 }
 
 void faultGET() { //Gets any fault
-	printf("getting faults: <Fault info>\n");
 	sendData(0x0001);
 	unsigned int fault = recieveData();
-
-	printf("End receive\n");
 	decodeFault(fault);
-
 }
 
 void attnSET(sl_cli_command_arg_t *arguments) { //Set the attenuation level of the system (Output command)

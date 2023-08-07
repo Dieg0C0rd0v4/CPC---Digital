@@ -15,13 +15,11 @@
 
 static Ecode_t ecodeSPI;
 
-static unsigned int rxBuffer[buffersize];
-//static unsigned int txBuffer[buffersize];
-
+unsigned int rxBuffer[buffersize];
+unsigned int txBuffer[buffersize];
 
 void SPIInit(){
-	//sl_iostream_set_default(sl_iostream_vcom_handle);
-	setOutput(slaveWakeup_port,4);
+	setOutput(slaveWakeup_port,4); // Setting output signal for slave SPI
 }
 
 void wakeupSlave(){
@@ -33,22 +31,16 @@ void sleepSlave(){
 }
 
 void sendData(unsigned int data){
-	printf("sending data\n");
 	wakeupSlave();
 	ecodeSPI = SPIDRV_MTransmitB(handleSPI, &data , buffersize);
 	sleepSlave();
-	printf("End sending");
 }
 
 unsigned int recieveData(){
 	unsigned int data=0x0000;
-	printf("Receiving data\n");
 	wakeupSlave();
 	ecodeSPI = SPIDRV_MReceiveB(handleSPI, &rxBuffer, buffersize);
-	printf("This is the rxbuffer= %#06x\n", *rxBuffer);
-	printf("End receive\n");
 	sleepSlave();
 	data =(*rxBuffer);
-	printf("This is the data= %#06x\n", data);
 	return data;
 }

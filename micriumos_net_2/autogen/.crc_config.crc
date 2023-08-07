@@ -1,0 +1,27 @@
+#CRC Codes for initially generated config files -- do not modify!
+SEGGER_RTT_Conf.h=-421909511
+bsp_cfg.h=607908035
+common_cfg.h=1629312952
+cpu_cfg.h=1425538225
+dmadrv_config.h=2122112711
+emlib_core_debug_config.h=-551881347
+glib_config.h=-1968868481
+net_cfg.h=229085376
+os_cfg.h=-873058161
+os_cfg_trace.h=-664475184
+rtos_cfg.h=-256426427
+rtos_err_cfg.h=297279982
+sl_board_control_config.h=28183850
+sl_cli_config.h=690748531
+sl_cli_config_inst.h=625733942
+sl_debug_swo_config.h=734494033
+sl_device_init_dcdc_config.h=-1580606003
+sl_device_init_emu_config.h=-1292589747
+sl_device_init_hfxo_config.h=-1325689222
+sl_device_init_lfxo_config.h=1709710440
+sl_iostream_usart_vcom_config.h=790735949
+sl_memlcd_usart_config.h=358190089
+sl_memory_config.h=687128566
+sl_simple_led_led0_config.h=1102379983
+sl_sleeptimer_config.h=1360009810
+sl_systemview_config.h=-235778920

@@ -6,11 +6,12 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1688590386989_6" label="Window Working Set" name="Aggregate for window 1688590386989"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1688650944940_7" label="Window Working Set" name="Aggregate for window 1688650944940"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1688653899312_6" label="Window Working Set" name="Aggregate for window 1688653899312"/>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1688749826488_7" label="Solutions" name="Solutions"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689175381398_7" label="Window Working Set" name="Aggregate for window 1689175381398"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689190715595_8" label="Window Working Set" name="Aggregate for window 1689190715595"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689190789493_9" label="Window Working Set" name="Aggregate for window 1689190789493"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689251032595_10" label="Window Working Set" name="Aggregate for window 1689251032595"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689274405388_11" label="Window Working Set" name="Aggregate for window 1689274405388"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689277960130_12" label="Window Working Set" name="Aggregate for window 1689277960130"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1690911940107_14" label="Window Working Set" name="Aggregate for window 1690911940107"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1691070467802_16" label="Solutions" name="Solutions"/>
 </workingSetManager>
